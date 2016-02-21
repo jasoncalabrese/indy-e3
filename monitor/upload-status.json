@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-21T01:55:51.000Z", 
+      "timestamp": "2016-02-21T02:01:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 123.875, 
-    "clock": "2016-02-20T17:55:24-08:00"
+    "clock": "2016-02-20T18:01:03-08:00"
   }, 
   "openaps": {
     "suggested": {
@@ -34,6 +34,24 @@
       "activity": 0.0035, 
       "bolussnooze": 0, 
       "iob": 0.252
+    }, 
+    "enacted": {
+      "requested": {
+        "duration": 30, 
+        "rate": 0, 
+        "temp": "absolute"
+      }, 
+      "bg": 134, 
+      "temp": "absolute", 
+      "snoozeBG": 104, 
+      "timestamp": "2016-02-21T02:00:25.000Z", 
+      "reason": "Eventual BG 104<110, setting -0.05U/hr", 
+      "rate": 0, 
+      "eventualBG": 104, 
+      "recieved": true, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -10 BGI: -1.4", 
+      "tick": -3
     }
   }, 
   "mmtune": {
@@ -41,46 +59,46 @@
       [
         "916.560", 
         5, 
-        -79
+        -70
       ], 
       [
         "916.580", 
         5, 
-        -69
+        -63
       ], 
       [
         "916.600", 
-        3, 
-        -80
-      ], 
-      [
-        "916.620", 
-        4, 
-        -66
-      ], 
-      [
-        "916.640", 
         5, 
         -59
       ], 
       [
+        "916.620", 
+        5, 
+        -54
+      ], 
+      [
+        "916.640", 
+        4, 
+        -66
+      ], 
+      [
         "916.660", 
         5, 
-        -72
+        -58
       ], 
       [
         "916.680", 
         5, 
-        -71
+        -61
       ], 
       [
         "916.700", 
         5, 
-        -77
+        -74
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-02-21T01:55:35.000Z", 
+    "setFreq": 916.62, 
+    "timestamp": "2016-02-21T02:01:23.000Z", 
     "usedDefault": false
   }
 }
