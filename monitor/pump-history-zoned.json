@@ -1,5 +1,78 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-02-23T11:54:11 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-02-23T11:54:11-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0b2c74c05232d0183cd0", 
+        "data": [
+          {
+            "amount": 1.1, 
+            "age": 116
+          }, 
+          {
+            "amount": 2.05, 
+            "age": 306
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 316
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.05, 
+    "duration": 0, 
+    "amount": 2.05, 
+    "unabsorbed": 0.3, 
+    "_head": "0100520052000c00", 
+    "type": "normal", 
+    "_date": "0bb62b1710"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 138, 
+    "_description": "BolusWizard 2016-02-23T11:54:11 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-02-23T11:54:11-08:00", 
+    "_body": "235000aa506e08005200000c005278", 
+    "carb_input": 35, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 17.0, 
+    "food_estimate": 2.05, 
+    "unabsorbed_insulin_total": 0.3, 
+    "correction_estimate": 0.2, 
+    "bg_target_low": 110, 
+    "_head": "5b8a", 
+    "bolus_estimate": 2.05, 
+    "_date": "0bb60b1710"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-02-23T11:53:04 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-02-23T11:53:04-08:00", 
+    "_body": "c23647", 
+    "_head": "3f11", 
+    "amount": 138, 
+    "link": "c23647", 
+    "_date": "04b54b7710"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-02-23T11:53:04 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-02-23T11:53:04-08:00", 
+    "_body": "", 
+    "_head": "0a8a", 
+    "amount": 138, 
+    "_date": "04b52b7710"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-23T11:44:28 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-23T11:44:28-08:00", 
