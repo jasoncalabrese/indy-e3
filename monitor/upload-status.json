@@ -3,82 +3,102 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.51
+      "voltage": 1.58
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-23T05:22:32.000Z", 
+      "timestamp": "2016-02-23T14:56:39.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 141.475, 
-    "clock": "2016-02-22T21:07:16-08:00"
+    "reservoir": 131.825, 
+    "clock": "2016-02-23T06:56:13-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 70, 
+      "bg": 132, 
       "temp": "absolute", 
-      "snoozeBG": 50, 
-      "timestamp": "2016-02-23T05:10:03.000Z", 
-      "reason": "BG 70<80, avg delta 0.33>0; no high-temp to cancel", 
-      "eventualBG": 3, 
-      "mealAssist": "Off: Carbs: 36 Boluses: 2.25 Target: 115 Deviation: 20 BGI: -6.28", 
-      "tick": "+0"
+      "snoozeBG": 252, 
+      "timestamp": "2016-02-23T14:58:14.000Z", 
+      "rate": 1.85, 
+      "reason": "Eventual BG 152>=120, temp 0.85<1.85U/hr", 
+      "eventualBG": 152, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 24 Boluses: 2.65 Target: 100 Deviation: 20 BGI: -0.52", 
+      "tick": "+12"
     }, 
     "iob": {
-      "netbasalinsulin": -0.9, 
-      "timestamp": "2016-02-23T05:10:02.000Z", 
-      "basaliob": -0.508, 
-      "activity": 0.0157, 
-      "bolussnooze": 0.392, 
-      "iob": 1.092
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-02-23T14:58:13.000Z", 
+      "basaliob": -0.017, 
+      "activity": 0.0013, 
+      "bolussnooze": 2.575, 
+      "iob": 2.61
+    }, 
+    "enacted": {
+      "requested": {
+        "duration": 30, 
+        "rate": 1.85, 
+        "temp": "absolute"
+      }, 
+      "bg": 132, 
+      "temp": "absolute", 
+      "snoozeBG": 252, 
+      "timestamp": "2016-02-23T14:58:25.000Z", 
+      "reason": "Eventual BG 152>=120, temp 0.85<1.85U/hr", 
+      "rate": 1.85, 
+      "eventualBG": 152, 
+      "recieved": true, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 24 Boluses: 2.65 Target: 100 Deviation: 20 BGI: -0.52", 
+      "tick": "+12"
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.560", 
+        5, 
+        -90
+      ], 
+      [
+        "916.580", 
+        5, 
+        -85
+      ], 
+      [
         "916.600", 
         5, 
-        -94
+        -83
       ], 
       [
         "916.620", 
         5, 
-        -89
+        -83
       ], 
       [
         "916.640", 
         5, 
-        -88
+        -82
       ], 
       [
         "916.660", 
         5, 
-        -88
+        -83
       ], 
       [
         "916.680", 
         5, 
-        -88
+        -85
       ], 
       [
         "916.700", 
         5, 
         -88
-      ], 
-      [
-        "916.720", 
-        5, 
-        -89
-      ], 
-      [
-        "916.740", 
-        5, 
-        -93
       ]
     ], 
-    "setFreq": 916.7, 
-    "timestamp": "2016-02-23T14:47:02.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-02-23T14:56:22.000Z", 
     "usedDefault": false
   }
 }
