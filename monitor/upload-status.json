@@ -7,31 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-23T23:35:48.000Z", 
+      "timestamp": "2016-02-23T23:37:38.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 123.875, 
-    "clock": "2016-02-23T15:35:22-08:00"
+    "reservoir": 123.85, 
+    "clock": "2016-02-23T15:37:12-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 154, 
       "temp": "absolute", 
       "snoozeBG": 121, 
-      "timestamp": "2016-02-23T23:36:47.000Z", 
+      "timestamp": "2016-02-23T23:39:59.000Z", 
       "reason": "Eventual BG 121>=120, temp 0.675 >~ req 0.65U/hr", 
       "eventualBG": 121, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 8 BGI: -1.24", 
-      "tick": "+1"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 7 BGI: -1.32", 
+      "tick": "+0"
     }, 
     "iob": {
       "netbasalinsulin": 0.45, 
-      "timestamp": "2016-02-23T23:36:47.000Z", 
-      "basaliob": 0.513, 
-      "activity": 0.0031, 
+      "timestamp": "2016-02-23T23:39:58.000Z", 
+      "basaliob": 0.506, 
+      "activity": 0.0033, 
       "bolussnooze": 0, 
-      "iob": 0.513
+      "iob": 0.506
     }, 
     "enacted": {
       "requested": {
@@ -57,12 +57,12 @@
       [
         "916.580", 
         5, 
-        -89
+        -91
       ], 
       [
         "916.600", 
         5, 
-        -87
+        -89
       ], 
       [
         "916.620", 
@@ -72,31 +72,26 @@
       [
         "916.640", 
         5, 
-        -88
+        -85
       ], 
       [
         "916.660", 
         5, 
-        -90
+        -86
       ], 
       [
         "916.680", 
         5, 
-        -89
+        -87
       ], 
       [
         "916.700", 
         5, 
-        -89
-      ], 
-      [
-        "916.720", 
-        5, 
-        -95
+        -92
       ]
     ], 
-    "setFreq": 916.62, 
-    "timestamp": "2016-02-23T23:35:40.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-02-23T23:37:22.000Z", 
     "usedDefault": false
   }
 }
