@@ -7,33 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-24T00:21:50.000Z", 
+      "timestamp": "2016-02-24T00:25:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 123.175, 
-    "clock": "2016-02-23T16:21:24-08:00"
+    "reservoir": 123.15, 
+    "clock": "2016-02-23T16:25:09-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 164, 
+      "bg": 162, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
-      "timestamp": "2016-02-24T00:22:44.000Z", 
-      "rate": 0.7, 
-      "reason": "Eventual BG 126>=120, no temp, setting 0.68U/hr", 
-      "eventualBG": 126, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 7 BGI: -2.64", 
-      "tick": -1
+      "snoozeBG": 121, 
+      "timestamp": "2016-02-24T00:26:43.000Z", 
+      "reason": "Eventual BG 121>=120, temp 0.675 >~ req 0.54U/hr", 
+      "eventualBG": 121, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 6 BGI: -2.68", 
+      "tick": -2
     }, 
     "iob": {
-      "netbasalinsulin": 0.9, 
-      "timestamp": "2016-02-24T00:22:43.000Z", 
-      "basaliob": 0.561, 
-      "activity": 0.0066, 
+      "netbasalinsulin": 0.95, 
+      "timestamp": "2016-02-24T00:26:42.000Z", 
+      "basaliob": 0.586, 
+      "activity": 0.0067, 
       "bolussnooze": 0, 
-      "iob": 0.561
+      "iob": 0.586
     }, 
     "enacted": {
       "requested": {
@@ -59,17 +57,17 @@
       [
         "916.560", 
         5, 
-        -94
+        -93
       ], 
       [
         "916.580", 
         5, 
-        -85
+        -87
       ], 
       [
         "916.600", 
         5, 
-        -84
+        -85
       ], 
       [
         "916.620", 
@@ -89,21 +87,16 @@
       [
         "916.680", 
         5, 
-        -84
+        -85
       ], 
       [
         "916.700", 
         5, 
-        -85
-      ], 
-      [
-        "916.720", 
-        5, 
-        -95
+        -87
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-02-24T00:21:42.000Z", 
+    "timestamp": "2016-02-24T00:25:28.000Z", 
     "usedDefault": false
   }
 }
