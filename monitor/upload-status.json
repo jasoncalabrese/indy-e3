@@ -7,33 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-24T02:50:31.000Z", 
+      "timestamp": "2016-02-24T02:56:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 122.35, 
-    "clock": "2016-02-23T18:50:06-08:00"
+    "clock": "2016-02-23T18:56:04-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 81, 
+      "bg": 78, 
       "temp": "absolute", 
-      "snoozeBG": 73, 
-      "timestamp": "2016-02-24T02:54:43.000Z", 
+      "snoozeBG": 77, 
+      "timestamp": "2016-02-24T02:59:08.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 73<110, setting -1.6U/hr", 
-      "eventualBG": 73, 
+      "reason": "BG 78<80", 
+      "eventualBG": 77, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -36 BGI: 1.4", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -31 BGI: 1.52", 
       "tick": -3
     }, 
     "iob": {
-      "netbasalinsulin": -0.3, 
-      "timestamp": "2016-02-24T02:54:42.000Z", 
-      "basaliob": -0.354, 
-      "activity": -0.0035, 
+      "netbasalinsulin": -0.4, 
+      "timestamp": "2016-02-24T02:59:07.000Z", 
+      "basaliob": -0.381, 
+      "activity": -0.0038, 
       "bolussnooze": 0, 
-      "iob": -0.354
+      "iob": -0.381
     }, 
     "enacted": {
       "requested": {
@@ -41,16 +41,16 @@
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 81, 
+      "bg": 78, 
       "temp": "absolute", 
-      "snoozeBG": 73, 
-      "timestamp": "2016-02-24T02:55:04.000Z", 
-      "reason": "Eventual BG 73<110, setting -1.6U/hr", 
+      "snoozeBG": 77, 
+      "timestamp": "2016-02-24T02:59:31.000Z", 
+      "reason": "BG 78<80", 
       "rate": 0, 
-      "eventualBG": 73, 
+      "eventualBG": 77, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -36 BGI: 1.4", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -31 BGI: 1.52", 
       "tick": -3
     }
   }, 
@@ -59,46 +59,46 @@
       [
         "916.560", 
         5, 
-        -88
+        -90
       ], 
       [
         "916.580", 
         5, 
-        -83
+        -85
       ], 
       [
         "916.600", 
         5, 
-        -82
+        -84
       ], 
       [
         "916.620", 
         5, 
-        -82
+        -83
       ], 
       [
         "916.640", 
         5, 
-        -82
+        -83
       ], 
       [
         "916.660", 
         5, 
-        -82
+        -84
       ], 
       [
         "916.680", 
         5, 
-        -85
+        -84
       ], 
       [
         "916.700", 
         5, 
-        -90
+        -87
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-02-24T02:50:24.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-02-24T02:56:22.000Z", 
     "usedDefault": false
   }
 }
