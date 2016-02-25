@@ -7,31 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-25T01:48:02.000Z", 
+      "timestamp": "2016-02-25T01:50:43.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 102.8, 
-    "clock": "2016-02-24T17:47:05-08:00"
+    "reservoir": 102.7, 
+    "clock": "2016-02-24T17:50:18-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 112, 
+      "bg": 127, 
       "temp": "absolute", 
-      "snoozeBG": 188, 
-      "timestamp": "2016-02-25T01:49:13.000Z", 
-      "reason": "Eventual BG 219>=120, adj. req. rate:2.7 to maxSafeBasal:2.0, temp 2 >~ req 2U/hr", 
-      "eventualBG": 219, 
-      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 31 BGI: 2.28", 
-      "tick": "+13"
+      "snoozeBG": 199, 
+      "timestamp": "2016-02-25T01:54:01.000Z", 
+      "reason": "Eventual BG 232>=120, adj. req. rate:3.0 to maxSafeBasal:2.0, temp 2 >~ req 2U/hr", 
+      "eventualBG": 232, 
+      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 33 BGI: 2.36", 
+      "tick": "+15"
     }, 
     "iob": {
-      "netbasalinsulin": -0.4, 
-      "timestamp": "2016-02-25T01:49:12.000Z", 
-      "basaliob": -0.559, 
-      "activity": -0.0057, 
+      "netbasalinsulin": -0.45, 
+      "timestamp": "2016-02-25T01:54:00.000Z", 
+      "basaliob": -0.49, 
+      "activity": -0.0059, 
       "bolussnooze": 0, 
-      "iob": -0.559
+      "iob": -0.49
     }, 
     "enacted": {
       "requested": {
@@ -55,53 +55,43 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.560", 
-        5, 
-        -91
-      ], 
-      [
         "916.580", 
         5, 
-        -82
+        -88
       ], 
       [
         "916.600", 
         5, 
-        -80
+        -86
       ], 
       [
         "916.620", 
         5, 
-        -79
+        -85
       ], 
       [
         "916.640", 
         5, 
-        -79
+        -86
       ], 
       [
         "916.660", 
         5, 
-        -80
+        -84
       ], 
       [
         "916.680", 
         5, 
-        -81
+        -85
       ], 
       [
         "916.700", 
-        5, 
-        -82
-      ], 
-      [
-        "916.720", 
-        5, 
-        -90
+        3, 
+        -93
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-02-25T01:47:23.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-02-25T01:50:24.000Z", 
     "usedDefault": false
   }
 }
