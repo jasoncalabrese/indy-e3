@@ -7,31 +7,31 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-28T04:42:39.000Z", 
+      "timestamp": "2016-02-28T04:47:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 81.025, 
-    "clock": "2016-02-27T20:42:14-08:00"
+    "reservoir": 80.975, 
+    "clock": "2016-02-27T20:47:06-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 168, 
       "temp": "absolute", 
-      "snoozeBG": 228, 
-      "timestamp": "2016-02-28T04:43:34.000Z", 
-      "reason": "Eventual BG 15<110, but Avg. Delta 2.67 > Exp. Delta -2.9; no temp to cancel", 
-      "eventualBG": 15, 
-      "mealAssist": "Off: Carbs: 30 Boluses: 3.15 Target: 115 Deviation: 25 BGI: -5.72", 
-      "tick": "+2"
+      "snoozeBG": 218, 
+      "timestamp": "2016-02-28T04:48:33.000Z", 
+      "reason": "Eventual BG 17<110, bolus snooze: eventual BG range 17-218", 
+      "eventualBG": 17, 
+      "mealAssist": "Off: Carbs: 30 Boluses: 3.15 Target: 115 Deviation: 22 BGI: -5.76", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": 0.95, 
-      "timestamp": "2016-02-28T04:43:33.000Z", 
-      "basaliob": 0.053, 
-      "activity": 0.0143, 
-      "bolussnooze": 1.771, 
-      "iob": 2.227
+      "netbasalinsulin": 0.85, 
+      "timestamp": "2016-02-28T04:48:32.000Z", 
+      "basaliob": 0.048, 
+      "activity": 0.0144, 
+      "bolussnooze": 1.675, 
+      "iob": 2.157
     }, 
     "enacted": {
       "requested": {
@@ -67,22 +67,22 @@
       [
         "916.600", 
         5, 
-        -79
+        -78
       ], 
       [
         "916.620", 
         5, 
-        -79
+        -78
       ], 
       [
         "916.640", 
         5, 
-        -79
+        -78
       ], 
       [
         "916.660", 
         5, 
-        -79
+        -78
       ], 
       [
         "916.680", 
@@ -95,8 +95,8 @@
         -83
       ]
     ], 
-    "setFreq": 916.68, 
-    "timestamp": "2016-02-28T04:42:22.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-02-28T04:47:23.000Z", 
     "usedDefault": false
   }
 }
