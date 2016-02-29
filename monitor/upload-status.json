@@ -16,40 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 140, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 149, 
-      "timestamp": "2016-02-29T17:57:13.000Z", 
-      "reason": "Eventual BG 149>=120, temp 2.1 >~ req 1.4U/hr", 
-      "eventualBG": 149, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.65 Target: 115 Deviation: 18 BGI: 0.16", 
-      "tick": "+5"
+      "snoozeBG": 164, 
+      "timestamp": "2016-02-29T18:02:52.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 38<110-5, and temp 2.1 > basal 0.55", 
+      "eventualBG": 38, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 42 Boluses: 3.7 Target: 115 Deviation: 5 BGI: 0.48", 
+      "tick": -5
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2016-02-29T17:57:13.000Z", 
-      "basaliob": 0.115, 
-      "activity": -0.0004, 
-      "bolussnooze": 0, 
-      "iob": 0.118
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2016-02-29T18:02:51.000Z", 
+      "basaliob": 0.224, 
+      "activity": -0.0012, 
+      "bolussnooze": 1.05, 
+      "iob": 1.273
     }, 
     "enacted": {
       "requested": {
-        "duration": 30, 
-        "rate": 2.1, 
+        "duration": 0, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 122, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 168, 
-      "timestamp": "2016-02-29T17:43:00.000Z", 
-      "reason": "Eventual BG 196>=120, adj. req. rate:2.3 to maxSafeBasal:2.1, temp 1.55<2.0999999999999996U/hr", 
-      "rate": 2.1, 
-      "eventualBG": 196, 
+      "snoozeBG": 164, 
+      "timestamp": "2016-02-29T18:03:12.000Z", 
+      "reason": "Eventual BG 38<110-5, and temp 2.1 > basal 0.55", 
+      "rate": 0, 
+      "eventualBG": 38, 
       "recieved": true, 
-      "duration": 30, 
-      "mealAssist": "On: Carbs: 24 Boluses: 2.65 Target: 100 Deviation: 28 BGI: -1.28", 
-      "tick": "+9"
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 42 Boluses: 3.7 Target: 115 Deviation: 5 BGI: 0.48", 
+      "tick": -5
     }
   }, 
   "mmtune": {
