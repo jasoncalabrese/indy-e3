@@ -7,33 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-03T22:18:30.000Z", 
+      "timestamp": "2016-03-03T22:25:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 100.35, 
-    "clock": "2016-03-03T14:18:07-08:00"
+    "clock": "2016-03-03T14:25:04-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 150, 
       "temp": "absolute", 
-      "snoozeBG": 60, 
-      "timestamp": "2016-03-03T22:21:47.000Z", 
+      "snoozeBG": 63, 
+      "timestamp": "2016-03-03T22:26:22.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 20<110, setting -2.25U/hr", 
-      "eventualBG": 20, 
+      "reason": "Eventual BG 34<110, setting -2.1U/hr", 
+      "eventualBG": 34, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 36 Boluses: 2.75 Target: 115 Deviation: -30 BGI: -8", 
+      "mealAssist": "Off: Carbs: 36 Boluses: 2.75 Target: 115 Deviation: -31 BGI: -7.84", 
       "tick": -11
     }, 
     "iob": {
-      "netbasalinsulin": 1.05, 
-      "timestamp": "2016-03-03T22:21:47.000Z", 
-      "basaliob": 0.559, 
-      "activity": 0.02, 
-      "bolussnooze": 0.336, 
-      "iob": 1.248
+      "netbasalinsulin": 1, 
+      "timestamp": "2016-03-03T22:26:21.000Z", 
+      "basaliob": 0.444, 
+      "activity": 0.0196, 
+      "bolussnooze": 0.245, 
+      "iob": 1.061
     }, 
     "enacted": {
       "requested": {
@@ -43,14 +43,14 @@
       }, 
       "bg": 150, 
       "temp": "absolute", 
-      "snoozeBG": 60, 
-      "timestamp": "2016-03-03T22:22:07.000Z", 
-      "reason": "Eventual BG 20<110, setting -2.25U/hr", 
+      "snoozeBG": 63, 
+      "timestamp": "2016-03-03T22:26:33.000Z", 
+      "reason": "Eventual BG 34<110, setting -2.1U/hr", 
       "rate": 0, 
-      "eventualBG": 20, 
+      "eventualBG": 34, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 36 Boluses: 2.75 Target: 115 Deviation: -30 BGI: -8", 
+      "mealAssist": "Off: Carbs: 36 Boluses: 2.75 Target: 115 Deviation: -31 BGI: -7.84", 
       "tick": -11
     }
   }, 
@@ -58,52 +58,47 @@
     "scanDetails": [
       [
         "916.560", 
-        5, 
-        -80
+        4, 
+        -91
       ], 
       [
         "916.580", 
         5, 
-        -75
+        -80
       ], 
       [
         "916.600", 
         5, 
-        -80
+        -77
       ], 
       [
         "916.620", 
         5, 
-        -77
+        -84
       ], 
       [
         "916.640", 
         5, 
-        -79
+        -84
       ], 
       [
         "916.660", 
         5, 
-        -81
+        -89
       ], 
       [
         "916.680", 
-        5, 
-        -78
+        1, 
+        -98
       ], 
       [
         "916.700", 
         5, 
-        -82
-      ], 
-      [
-        "916.720", 
-        1, 
-        -98
+        -92
       ]
     ], 
-    "setFreq": 916.58, 
-    "timestamp": "2016-03-03T22:18:22.000Z", 
+    "setFreq": 916.6, 
+    "timestamp": "2016-03-03T22:25:18.000Z", 
     "usedDefault": false
   }
 }
