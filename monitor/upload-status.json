@@ -7,49 +7,51 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-03T20:09:19.000Z", 
+      "timestamp": "2016-03-03T20:11:48.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 103.25, 
-    "clock": "2016-03-03T12:03:28-08:00"
+    "reservoir": 103.175, 
+    "clock": "2016-03-03T12:11:25-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 145, 
+      "bg": 151, 
       "temp": "absolute", 
-      "snoozeBG": 215, 
-      "timestamp": "2016-03-03T20:07:28.000Z", 
-      "reason": "Eventual BG -13<110, but Delta +3 > Exp. Delta 0; no temp to cancel", 
-      "eventualBG": -13, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 3 Target: 115 Deviation: 19 BGI: -3.6", 
-      "tick": "+3"
+      "snoozeBG": 211, 
+      "timestamp": "2016-03-03T20:12:47.000Z", 
+      "rate": 2, 
+      "reason": "Eventual BG 175>=120, adj. req. rate:2.4 to maxSafeBasal:2.0, no temp, setting 2U/hr", 
+      "eventualBG": 175, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 53 Boluses: 3 Target: 100 Deviation: 24 BGI: -4.44", 
+      "tick": "+6"
     }, 
     "iob": {
       "netbasalinsulin": -0.4, 
-      "timestamp": "2016-03-03T20:07:28.000Z", 
-      "basaliob": 0.035, 
-      "activity": 0.009, 
-      "bolussnooze": 1.904, 
-      "iob": 2.216
+      "timestamp": "2016-03-03T20:12:46.000Z", 
+      "basaliob": 0.043, 
+      "activity": 0.0111, 
+      "bolussnooze": 1.716, 
+      "iob": 2.131
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 2, 
         "temp": "absolute"
       }, 
-      "bg": 140, 
+      "bg": 151, 
       "temp": "absolute", 
-      "snoozeBG": 216, 
-      "timestamp": "2016-03-03T19:57:11.000Z", 
-      "reason": "Eventual BG -28<110, but Avg. Delta 3.00 > Exp. Delta 1.5; cancel", 
-      "rate": 0, 
-      "eventualBG": -28, 
+      "snoozeBG": 211, 
+      "timestamp": "2016-03-03T20:12:58.000Z", 
+      "reason": "Eventual BG 175>=120, adj. req. rate:2.4 to maxSafeBasal:2.0, no temp, setting 2U/hr", 
+      "rate": 2, 
+      "eventualBG": 175, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 3 Target: 115 Deviation: 16 BGI: -2.48", 
-      "tick": "+3"
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 53 Boluses: 3 Target: 100 Deviation: 24 BGI: -4.44", 
+      "tick": "+6"
     }
   }, 
   "mmtune": {
@@ -57,46 +59,46 @@
       [
         "916.560", 
         5, 
-        -90
+        -87
       ], 
       [
         "916.580", 
         5, 
-        -84
+        -85
       ], 
       [
         "916.600", 
         5, 
-        -86
+        -83
       ], 
       [
         "916.620", 
         5, 
-        -85
+        -79
       ], 
       [
         "916.640", 
         5, 
-        -82
+        -72
       ], 
       [
         "916.660", 
         5, 
-        -87
+        -75
       ], 
       [
         "916.680", 
         5, 
-        -91
+        -78
       ], 
       [
         "916.700", 
-        4, 
-        -93
+        5, 
+        -84
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-03-03T20:10:05.000Z", 
+    "timestamp": "2016-03-03T20:11:40.000Z", 
     "usedDefault": false
   }
 }
