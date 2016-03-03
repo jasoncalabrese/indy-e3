@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 132, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 119, 
-      "timestamp": "2016-03-03T19:46:45.000Z", 
-      "rate": 0, 
-      "reason": "119 is in range. No temp required; cancel", 
-      "eventualBG": 119, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 12 BGI: -2.2", 
-      "tick": "+1"
+      "snoozeBG": 133, 
+      "timestamp": "2016-03-03T19:52:24.000Z", 
+      "rate": 0.95, 
+      "reason": "Eventual BG 133>=120, no temp, setting 0.95U/hr", 
+      "eventualBG": 133, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 15 BGI: -2.08", 
+      "tick": "+5"
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2016-03-03T19:46:45.000Z", 
-      "basaliob": -0.007, 
-      "activity": 0.0055, 
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-03-03T19:52:23.000Z", 
+      "basaliob": -0.044, 
+      "activity": 0.0052, 
       "bolussnooze": 0, 
-      "iob": 0.308
+      "iob": 0.232
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 0.95, 
         "temp": "absolute"
       }, 
-      "bg": 132, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 119, 
-      "timestamp": "2016-03-03T19:47:07.000Z", 
-      "reason": "119 is in range. No temp required; cancel", 
-      "rate": 0, 
-      "eventualBG": 119, 
+      "snoozeBG": 133, 
+      "timestamp": "2016-03-03T19:52:45.000Z", 
+      "reason": "Eventual BG 133>=120, no temp, setting 0.95U/hr", 
+      "rate": 0.925, 
+      "eventualBG": 133, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 12 BGI: -2.2", 
-      "tick": "+1"
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 15 BGI: -2.08", 
+      "tick": "+5"
     }
   }, 
   "mmtune": {
