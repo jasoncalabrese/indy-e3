@@ -1,61 +1,23 @@
 {
-  "_id": "56db1280a3f298555f02932d",
+  "_id": "56db1a8ba3f298555f029333",
   "bolus": {
+    "programmed": 0.9,
     "_type": "Bolus",
-    "_description": "Bolus 2016-03-05T08:50:36 head[8], body[0] op[0x01]",
-    "timestamp": "2016-03-05T08:50:36-08:00",
+    "_description": "Bolus 2016-03-05T09:38:43 head[8], body[0] op[0x01]",
+    "timestamp": "2016-03-05T09:38:43-08:00",
     "_body": "",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c05207ed0",
-        "data": [
-          {
-            "amount": 0.8,
-            "age": 382
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "programmed": 1.05,
+    "_head": "0100240024002200",
+    "amount": 0.9,
+    "unabsorbed": 0.85,
     "duration": 0,
-    "amount": 1.05,
-    "unabsorbed": 0,
-    "_head": "01002a002a000000",
     "type": "normal",
-    "_date": "24f2280510"
+    "_date": "2be6296510"
   },
-  "timestamp": "2016-03-05T08:50:35-08:00",
-  "created_at": "2016-03-05T08:50:35-08:00",
-  "carbs": 12,
-  "ratio": "10",
-  "bg": "98",
-  "glucose": 98,
-  "glucoseType": "BolusWizard",
-  "wizard": {
-    "_type": "BolusWizard",
-    "bg": 98,
-    "_description": "BolusWizard 2016-03-05T08:50:35 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-03-05T08:50:35-08:00",
-    "_body": "0c500064506efa0030f80000002a78",
-    "carb_input": 12,
-    "bg_target_high": 120,
-    "sensitivity": 80,
-    "carb_ratio": 10,
-    "food_estimate": 1.2,
-    "unabsorbed_insulin_total": 0,
-    "correction_estimate": 51.05,
-    "bg_target_low": 110,
-    "_head": "5b62",
-    "bolus_estimate": 1.05,
-    "_date": "23f2080510"
-  },
-  "eventType": "Meal Bolus",
-  "insulin": 1.05,
-  "notes": "Normal bolus with wizard.\nProgrammed bolus 1.05\nDelivered bolus 1.05\nPercent delivered:  100%\nFood estimate 1.2\nCorrection estimate 51.05\nBolus estimate 1.05\nTarget low 110\nTarget high 120\nHypothetical glucose delta -84\nGlucose was: 98",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
+  "timestamp": "2016-03-05T09:38:43-08:00",
+  "created_at": "2016-03-05T09:38:43-08:00",
+  "eventType": "Correction Bolus",
+  "insulin": 0.9,
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.9\nDelivered bolus 0.9\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
   "enteredBy": "openaps://medtronic/723"
 }
