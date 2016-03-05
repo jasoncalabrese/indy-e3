@@ -11,7 +11,7 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 113.35, 
+    "reservoir": 113.3, 
     "clock": "2016-03-05T12:29:32-08:00"
   }, 
   "openaps": {
@@ -19,37 +19,39 @@
       "bg": 218, 
       "temp": "absolute", 
       "snoozeBG": 163, 
-      "timestamp": "2016-03-05T20:27:03.000Z", 
-      "reason": "117 is in range. No temp required", 
-      "eventualBG": 117, 
-      "mealAssist": "On: Carbs: 30 Boluses: 2.2 Target: 100 Deviation: 32 BGI: -4.76", 
+      "timestamp": "2016-03-05T20:31:00.000Z", 
+      "rate": 1.05, 
+      "reason": "Eventual BG 123>=120, no temp, setting 1.075U/hr", 
+      "eventualBG": 123, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 30 Boluses: 2.2 Target: 100 Deviation: 33 BGI: -5.08", 
       "tick": "+4"
     }, 
     "iob": {
       "netbasalinsulin": 0.6, 
-      "timestamp": "2016-03-05T20:27:02.000Z", 
-      "basaliob": 0.74, 
-      "activity": 0.0119, 
-      "bolussnooze": 0.383, 
-      "iob": 1.659
+      "timestamp": "2016-03-05T20:31:00.000Z", 
+      "basaliob": 0.734, 
+      "activity": 0.0127, 
+      "bolussnooze": 0.335, 
+      "iob": 1.602
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 1.05, 
         "temp": "absolute"
       }, 
-      "bg": 207, 
+      "bg": 218, 
       "temp": "absolute", 
-      "snoozeBG": 170, 
-      "timestamp": "2016-03-05T20:17:08.000Z", 
-      "reason": "106 is in range. No temp required; cancel", 
-      "rate": 0, 
-      "eventualBG": 106, 
+      "snoozeBG": 163, 
+      "timestamp": "2016-03-05T20:31:12.000Z", 
+      "reason": "Eventual BG 123>=120, no temp, setting 1.075U/hr", 
+      "rate": 1.05, 
+      "eventualBG": 123, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "On: Carbs: 30 Boluses: 2.2 Target: 100 Deviation: 38 BGI: -3.88", 
-      "tick": "+7"
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 30 Boluses: 2.2 Target: 100 Deviation: 33 BGI: -5.08", 
+      "tick": "+4"
     }
   }, 
   "mmtune": {
