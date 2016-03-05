@@ -1,5 +1,75 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-05T15:39:35 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-05T15:39:35", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 41
+          }, 
+          {
+            "amount": 1.15, 
+            "age": 111
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 211
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 261
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 281
+          }, 
+          {
+            "amount": 0.9, 
+            "age": 361
+          }, 
+          {
+            "amount": 1.05, 
+            "age": 411
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c170c29c02e6fc00cd3c01805d01019d02469d02a9bd0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "01000c000c001800", 
+    "amount": 0.3, 
+    "unabsorbed": 0.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "23e72f6510"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 272, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-03-05T15:39:27 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-05T15:39:27", 
+    "_body": "005100b4506e4c0000000018003478", 
+    "_head": "5b10", 
+    "unabsorbed_insulin_total": 0.6, 
+    "correction_estimate": 1.9, 
+    "_date": "1be70f0510", 
+    "bolus_estimate": 1.3, 
+    "bg_target_low": 110, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 80
+  }, 
+  {
     "_type": "BGReceived", 
     "link": "c23647", 
     "_description": "BGReceived 2016-03-05T15:37:44 head[2], body[3] op[0x3f]", 
@@ -1883,18 +1953,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "0de90a4510"
-  }, 
-  {
-    "programmed": 0.9, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-03-05T09:38:43 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-03-05T09:38:43", 
-    "_body": "", 
-    "_head": "0100240024002200", 
-    "amount": 0.9, 
-    "unabsorbed": 0.85, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "2be6296510"
   }
 ]
