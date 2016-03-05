@@ -11,29 +11,29 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 116.275, 
+    "reservoir": 116.25, 
     "clock": "2016-03-05T10:48:31-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 171, 
+      "bg": 143, 
       "temp": "absolute", 
-      "snoozeBG": 103, 
-      "timestamp": "2016-03-05T18:41:24.000Z", 
+      "snoozeBG": 64, 
+      "timestamp": "2016-03-05T18:51:11.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 85<110, setting -0.05U/hr", 
-      "eventualBG": 85, 
+      "reason": "Eventual BG 56<110, setting -2U/hr", 
+      "eventualBG": 56, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 12 Boluses: 1.95 Target: 115 Deviation: -12 BGI: -6.72", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 12 Boluses: 1.95 Target: 115 Deviation: -33 BGI: -6.8", 
+      "tick": -15
     }, 
     "iob": {
       "netbasalinsulin": -0.1, 
-      "timestamp": "2016-03-05T18:41:23.000Z", 
-      "basaliob": 0.032, 
-      "activity": 0.0168, 
-      "bolussnooze": 0.147, 
-      "iob": 0.925
+      "timestamp": "2016-03-05T18:51:10.000Z", 
+      "basaliob": -0.075, 
+      "activity": 0.017, 
+      "bolussnooze": 0.068, 
+      "iob": 0.674
     }, 
     "enacted": {
       "requested": {
@@ -41,17 +41,17 @@
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 171, 
+      "bg": 143, 
       "temp": "absolute", 
-      "snoozeBG": 103, 
-      "timestamp": "2016-03-05T18:41:35.000Z", 
-      "reason": "Eventual BG 85<110, setting -0.05U/hr", 
+      "snoozeBG": 64, 
+      "timestamp": "2016-03-05T18:51:22.000Z", 
+      "reason": "Eventual BG 56<110, setting -2U/hr", 
       "rate": 0, 
-      "eventualBG": 85, 
+      "eventualBG": 56, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 12 Boluses: 1.95 Target: 115 Deviation: -12 BGI: -6.72", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 12 Boluses: 1.95 Target: 115 Deviation: -33 BGI: -6.8", 
+      "tick": -15
     }
   }, 
   "mmtune": {
