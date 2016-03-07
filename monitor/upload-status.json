@@ -16,40 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 139, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2016-03-07T16:17:21.000Z", 
-      "reason": "Eventual BG 48<110, but Avg. Delta 2.00 > Exp. Delta -3.7; no temp to cancel", 
-      "eventualBG": 48, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 1.95 Target: 115 Deviation: 23 BGI: -5.52", 
-      "tick": "+1"
+      "snoozeBG": 77, 
+      "timestamp": "2016-03-07T16:21:27.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 50<110, Snooze BG 77, setting -0.37U/hr", 
+      "eventualBG": 50, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 1.95 Target: 115 Deviation: 20 BGI: -5.88", 
+      "tick": -2
     }, 
     "iob": {
       "netbasalinsulin": 0.25, 
-      "timestamp": "2016-03-07T16:17:20.000Z", 
-      "basaliob": 0.148, 
-      "activity": 0.0138, 
-      "bolussnooze": 0.326, 
-      "iob": 1.419
+      "timestamp": "2016-03-07T16:21:27.000Z", 
+      "basaliob": 0.165, 
+      "activity": 0.0147, 
+      "bolussnooze": 0.226, 
+      "iob": 1.334
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
+        "duration": 30, 
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 130, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 136, 
-      "timestamp": "2016-03-07T15:57:37.000Z", 
-      "reason": "Eventual BG 31<110, but Avg. Delta 5.33 > Exp. Delta -1.4; cancel", 
+      "snoozeBG": 77, 
+      "timestamp": "2016-03-07T16:21:49.000Z", 
+      "reason": "Eventual BG 50<110, Snooze BG 77, setting -0.37U/hr", 
       "rate": 0, 
-      "eventualBG": 31, 
+      "eventualBG": 50, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 1.95 Target: 115 Deviation: 27 BGI: -3.76", 
-      "tick": "+1"
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 1.95 Target: 115 Deviation: 20 BGI: -5.88", 
+      "tick": -2
     }
   }, 
   "mmtune": {
