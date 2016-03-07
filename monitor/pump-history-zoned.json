@@ -1,5 +1,74 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-07T10:04:29 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-07T10:04:29-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0830a6c01ec4c0", 
+        "data": [
+          {
+            "amount": 1.2, 
+            "age": 166
+          }, 
+          {
+            "amount": 0.75, 
+            "age": 196
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.05, 
+    "duration": 0, 
+    "amount": 1.05, 
+    "unabsorbed": 0.1, 
+    "_head": "01002a002a000400", 
+    "type": "normal", 
+    "_date": "1dc42a0710"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 121, 
+    "_description": "BolusWizard 2016-03-07T10:04:29 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-07T10:04:29-08:00", 
+    "_body": "125000aa506e00002a000004002a78", 
+    "carb_input": 18, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 17.0, 
+    "food_estimate": 1.05, 
+    "unabsorbed_insulin_total": 0.1, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b79", 
+    "bolus_estimate": 1.05, 
+    "_date": "1dc40a0710"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-03-07T10:03:05 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-03-07T10:03:05-08:00", 
+    "_body": "c23647", 
+    "_head": "3f0f", 
+    "amount": 121, 
+    "link": "c23647", 
+    "_date": "05c32a6710"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-03-07T10:03:05 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-03-07T10:03:05-08:00", 
+    "_body": "", 
+    "_head": "0a79", 
+    "amount": 121, 
+    "_date": "05c32a6710"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-03-07T09:57:11 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-03-07T09:57:11-08:00", 
