@@ -1,5 +1,46 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 168, 
+    "_description": "BolusWizard 2016-03-07T19:33:16 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-07T19:33:16-08:00", 
+    "_body": "305000a0506e180078000000009078", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0b02c3c02863d052bdd0", 
+        "data": [
+          {
+            "amount": 0.05, 
+            "age": 195
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 355
+          }, 
+          {
+            "amount": 2.05, 
+            "age": 445
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_input": 48, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.6, 
+    "bg_target_low": 110, 
+    "_head": "5ba8", 
+    "bolus_estimate": 3.6, 
+    "_date": "10e1130710"
+  }, 
+  {
     "_type": "BGReceived", 
     "_description": "BGReceived 2016-03-07T19:31:48 head[2], body[3] op[0x3f]", 
     "timestamp": "2016-03-07T19:31:48-08:00", 
@@ -1841,35 +1882,5 @@
     "_head": "0a9c", 
     "amount": 156, 
     "_date": "18e72d6710"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2016-03-07T13:31:48 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-03-07T13:31:48-08:00", 
-    "_body": "161400", 
-    "profile_index": 5, 
-    "_head": "7b05", 
-    "rate": 0.5, 
-    "offset": 39600000, 
-    "_date": "30df0d0710"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-03-07T13:31:48 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-03-07T13:31:48-08:00", 
-    "_body": "", 
-    "_head": "1600", 
-    "duration (min)": 0, 
-    "_date": "30df0d4710"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-03-07T13:31:48 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-03-07T13:31:48-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "30df0d4710"
   }
 ]
