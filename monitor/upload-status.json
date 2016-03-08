@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 135, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 85, 
-      "timestamp": "2016-03-08T15:56:58.000Z", 
-      "rate": 0.1, 
-      "reason": "Eventual BG 76<110, Snooze BG 85, setting 0.11U/hr", 
-      "eventualBG": 76, 
+      "snoozeBG": 73, 
+      "timestamp": "2016-03-08T16:01:41.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 70<110, Snooze BG 73, setting -0.59U/hr", 
+      "eventualBG": 70, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.5 Target: 115 Deviation: 47 BGI: -11.04", 
-      "tick": -3
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.5 Target: 115 Deviation: 30 BGI: -10.48", 
+      "tick": -5
     }, 
     "iob": {
-      "netbasalinsulin": -0.25, 
-      "timestamp": "2016-03-08T15:56:57.000Z", 
-      "basaliob": -0.025, 
-      "activity": 0.0276, 
-      "bolussnooze": 0.079, 
-      "iob": 1.324
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-03-08T16:01:40.000Z", 
+      "basaliob": -0.077, 
+      "activity": 0.0262, 
+      "bolussnooze": 0.023, 
+      "iob": 1.125
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.1, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 135, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 85, 
-      "timestamp": "2016-03-08T15:57:19.000Z", 
-      "reason": "Eventual BG 76<110, Snooze BG 85, setting 0.11U/hr", 
-      "rate": 0.1, 
-      "eventualBG": 76, 
+      "snoozeBG": 73, 
+      "timestamp": "2016-03-08T16:02:03.000Z", 
+      "reason": "Eventual BG 70<110, Snooze BG 73, setting -0.59U/hr", 
+      "rate": 0, 
+      "eventualBG": 70, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.5 Target: 115 Deviation: 47 BGI: -11.04", 
-      "tick": -3
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.5 Target: 115 Deviation: 30 BGI: -10.48", 
+      "tick": -5
     }
   }, 
   "mmtune": {
