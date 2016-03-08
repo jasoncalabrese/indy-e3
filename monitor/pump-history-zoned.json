@@ -1,10 +1,9 @@
 [
   {
-    "_type": "BolusWizard", 
-    "bg": 168, 
-    "_description": "BolusWizard 2016-03-07T19:33:16 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-03-07T19:33:16-08:00", 
-    "_body": "305000a0506e180078000000009078", 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-07T19:33:17 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-07T19:33:17-08:00", 
+    "_body": "", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
@@ -28,9 +27,23 @@
         "_date": ""
       }
     ], 
+    "programmed": 3.6, 
+    "duration": 0, 
+    "amount": 3.6, 
+    "unabsorbed": 0.0, 
+    "_head": "0100900090000000", 
+    "type": "normal", 
+    "_date": "11e1330710"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 168, 
+    "_description": "BolusWizard 2016-03-07T19:33:16 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-07T19:33:16-08:00", 
+    "_body": "305000a0506e180078000000009078", 
+    "carb_input": 48, 
     "bg_target_high": 120, 
     "sensitivity": 80, 
-    "carb_input": 48, 
     "carb_ratio": 16.0, 
     "food_estimate": 3.0, 
     "unabsorbed_insulin_total": 0.0, 
