@@ -1,5 +1,73 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-03-08T14:36:38 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-08T14:36:38-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "26e40e4810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-08T14:36:38 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-08T14:36:38-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "26e40e4810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-03-08T14:36:35 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-08T14:36:35-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "23e40e4810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-08T14:36:35 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-08T14:36:35-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "23e40e4810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-03-08T14:36:34 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-08T14:36:34-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "22e40e4810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-08T14:36:34 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-08T14:36:34-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "22e40e4810"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "_description": "BasalProfileStart 2016-03-08T14:30:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-03-08T14:30:00-08:00", 
+    "_body": "1d1400", 
+    "profile_index": 6, 
+    "_head": "7b06", 
+    "rate": 0.5, 
+    "offset": 52200000, 
+    "_date": "00de0e0810"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-03-08T14:27:14 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-03-08T14:27:14-08:00", 
