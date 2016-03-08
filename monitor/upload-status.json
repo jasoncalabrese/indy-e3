@@ -16,22 +16,24 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 194, 
+      "bg": 200, 
       "temp": "absolute", 
-      "snoozeBG": 204, 
-      "timestamp": "2016-03-08T17:46:29.000Z", 
-      "reason": "Eventual BG 204>=120, adj. req. rate:3.1 to maxSafeBasal:2.1, temp 2.1 >~ req 2.0999999999999996U/hr", 
-      "eventualBG": 204, 
-      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 46 BGI: 1.04", 
-      "tick": "+7"
+      "snoozeBG": 173, 
+      "timestamp": "2016-03-08T17:51:32.000Z", 
+      "rate": 2.1, 
+      "reason": "Eventual BG 173>=120, adj. req. rate:2.4 to maxSafeBasal:2.1, temp 2.1<2.0999999999999996U/hr", 
+      "eventualBG": 173, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 18 BGI: 0.84", 
+      "tick": "+6"
     }, 
     "iob": {
-      "netbasalinsulin": 0.2, 
-      "timestamp": "2016-03-08T17:46:29.000Z", 
-      "basaliob": 0.448, 
-      "activity": -0.0026, 
+      "netbasalinsulin": 0.25, 
+      "timestamp": "2016-03-08T17:51:31.000Z", 
+      "basaliob": 0.557, 
+      "activity": -0.0021, 
       "bolussnooze": 0, 
-      "iob": 0.448
+      "iob": 0.557
     }, 
     "enacted": {
       "requested": {
@@ -39,17 +41,17 @@
         "rate": 2.1, 
         "temp": "absolute"
       }, 
-      "bg": 133, 
+      "bg": 200, 
       "temp": "absolute", 
-      "snoozeBG": 188, 
-      "timestamp": "2016-03-08T17:22:09.000Z", 
-      "reason": "Eventual BG 223>=120, adj. req. rate:2.8 to maxSafeBasal:2.1, temp 1.75<2.0999999999999996U/hr", 
+      "snoozeBG": 173, 
+      "timestamp": "2016-03-08T17:51:53.000Z", 
+      "reason": "Eventual BG 173>=120, adj. req. rate:2.4 to maxSafeBasal:2.1, temp 2.1<2.0999999999999996U/hr", 
       "rate": 2.1, 
-      "eventualBG": 223, 
+      "eventualBG": 173, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 24 Boluses: 2.5 Target: 100 Deviation: 35 BGI: -0.6", 
-      "tick": "+16"
+      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 18 BGI: 0.84", 
+      "tick": "+6"
     }
   }, 
   "mmtune": {
