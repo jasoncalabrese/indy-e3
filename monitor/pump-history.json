@@ -1,5 +1,42 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 156, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-03-09T10:06:05 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-09T10:06:05", 
+    "_body": "125000aa506e12002a00000c003078", 
+    "_head": "5b9c", 
+    "unabsorbed_insulin_total": 0.3, 
+    "correction_estimate": 0.45, 
+    "_date": "05c60a0910", 
+    "bolus_estimate": 1.2, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 28
+          }, 
+          {
+            "amount": 2.4, 
+            "age": 198
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c080c1cc060c6c0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 110, 
+    "carb_ratio": 17.0, 
+    "food_estimate": 1.05, 
+    "carb_input": 18, 
+    "sensitivity": 80
+  }, 
+  {
     "_type": "BGReceived", 
     "link": "c23647", 
     "_description": "BGReceived 2016-03-09T10:03:37 head[2], body[3] op[0x3f]", 
