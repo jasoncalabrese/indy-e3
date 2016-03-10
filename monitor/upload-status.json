@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 183, 
+      "bg": 192, 
       "temp": "absolute", 
-      "snoozeBG": 148, 
-      "timestamp": "2016-03-10T21:06:39.000Z", 
-      "rate": 1.7, 
-      "reason": "Eventual BG 234>=120, no temp, setting 1.7U/hr", 
-      "eventualBG": 234, 
+      "snoozeBG": 164, 
+      "timestamp": "2016-03-10T21:11:57.000Z", 
+      "rate": 2, 
+      "reason": "Eventual BG 254>=120, adj. req. rate:2.1 to maxSafeBasal:2.0, temp 1.7<2U/hr", 
+      "eventualBG": 254, 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 53 Boluses: 3.2 Target: 100 Deviation: 51 BGI: -9.12", 
-      "tick": "+12"
+      "mealAssist": "On: Carbs: 35 Boluses: 2.15 Target: 100 Deviation: 62 BGI: -9.64", 
+      "tick": "+9"
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-03-10T21:06:39.000Z", 
-      "basaliob": 0.01, 
-      "activity": 0.0228, 
-      "bolussnooze": 0.147, 
-      "iob": 1.306
+      "netbasalinsulin": 0.05, 
+      "timestamp": "2016-03-10T21:11:56.000Z", 
+      "basaliob": 0.058, 
+      "activity": 0.0241, 
+      "bolussnooze": 0.081, 
+      "iob": 1.244
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 1.7, 
+        "rate": 2, 
         "temp": "absolute"
       }, 
-      "bg": 183, 
+      "bg": 192, 
       "temp": "absolute", 
-      "snoozeBG": 148, 
-      "timestamp": "2016-03-10T21:07:00.000Z", 
-      "reason": "Eventual BG 234>=120, no temp, setting 1.7U/hr", 
-      "rate": 1.7, 
-      "eventualBG": 234, 
+      "snoozeBG": 164, 
+      "timestamp": "2016-03-10T21:12:18.000Z", 
+      "reason": "Eventual BG 254>=120, adj. req. rate:2.1 to maxSafeBasal:2.0, temp 1.7<2U/hr", 
+      "rate": 2, 
+      "eventualBG": 254, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 53 Boluses: 3.2 Target: 100 Deviation: 51 BGI: -9.12", 
-      "tick": "+12"
+      "mealAssist": "On: Carbs: 35 Boluses: 2.15 Target: 100 Deviation: 62 BGI: -9.64", 
+      "tick": "+9"
     }
   }, 
   "mmtune": {
