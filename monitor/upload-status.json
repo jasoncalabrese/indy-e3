@@ -3,35 +3,37 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.57
+      "voltage": 1.56
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-13T16:48:12.000Z", 
+      "timestamp": "2016-03-13T17:11:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 121.7, 
-    "clock": "2016-03-12T21:44:05-08:00"
+    "reservoir": 116.325, 
+    "clock": "2016-03-13T10:10:35-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 83, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-03-13T05:45:52.000Z", 
-      "reason": "Eventual BG 101<110, temp 0 ~< req 0U/hr", 
-      "eventualBG": 101, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -13 BGI: 0.24", 
-      "tick": "+3"
+      "snoozeBG": 90, 
+      "timestamp": "2016-03-13T17:12:39.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 90<110, setting -0.7U/hr", 
+      "eventualBG": 90, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -27 BGI: 1.24", 
+      "tick": "+2"
     }, 
     "iob": {
-      "netbasalinsulin": -0.55, 
-      "timestamp": "2016-03-13T05:45:51.000Z", 
-      "basaliob": -0.385, 
-      "activity": -0.0006, 
+      "netbasalinsulin": -0.7, 
+      "timestamp": "2016-03-13T17:12:38.000Z", 
+      "basaliob": -0.452, 
+      "activity": -0.0031, 
       "bolussnooze": 0, 
-      "iob": -0.385
+      "iob": -0.452
     }, 
     "enacted": {
       "requested": {
@@ -39,64 +41,129 @@
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 80, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 74, 
-      "timestamp": "2016-03-13T05:40:03.000Z", 
-      "reason": "Eventual BG 74<110, setting -1.35U/hr", 
+      "snoozeBG": 90, 
+      "timestamp": "2016-03-13T17:12:50.000Z", 
+      "reason": "Eventual BG 90<110, setting -0.7U/hr", 
       "rate": 0, 
-      "eventualBG": 74, 
+      "eventualBG": 90, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -29 BGI: 0.16", 
-      "tick": -1
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -27 BGI: 1.24", 
+      "tick": "+2"
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.580", 
+        "916.500", 
+        2, 
+        -94
+      ], 
+      [
+        "916.520", 
         5, 
-        -93
+        -86
+      ], 
+      [
+        "916.540", 
+        4, 
+        -88
+      ], 
+      [
+        "916.560", 
+        3, 
+        -90
+      ], 
+      [
+        "916.580", 
+        3, 
+        -89
       ], 
       [
         "916.600", 
         5, 
-        -86
+        -81
       ], 
       [
         "916.620", 
-        5, 
-        -86
+        3, 
+        -91
       ], 
       [
         "916.640", 
-        5, 
-        -85
+        4, 
+        -88
       ], 
       [
         "916.660", 
-        5, 
-        -85
+        2, 
+        -94
       ], 
       [
         "916.680", 
-        5, 
-        -85
+        3, 
+        -89
       ], 
       [
         "916.700", 
-        5, 
-        -86
+        3, 
+        -90
       ], 
       [
         "916.720", 
         5, 
-        -89
+        -85
+      ], 
+      [
+        "916.740", 
+        4, 
+        -88
+      ], 
+      [
+        "916.760", 
+        5, 
+        -84
+      ], 
+      [
+        "916.780", 
+        5, 
+        -85
+      ], 
+      [
+        "916.800", 
+        3, 
+        -91
+      ], 
+      [
+        "916.820", 
+        5, 
+        -85
+      ], 
+      [
+        "916.840", 
+        5, 
+        -85
+      ], 
+      [
+        "916.860", 
+        5, 
+        -86
+      ], 
+      [
+        "916.880", 
+        5, 
+        -85
+      ], 
+      [
+        "916.900", 
+        5, 
+        -87
       ]
     ], 
-    "setFreq": 916.68, 
-    "timestamp": "2016-03-13T17:08:16.000Z", 
+    "setFreq": 916.6, 
+    "timestamp": "2016-03-13T17:11:16.000Z", 
     "usedDefault": false
   }
 }
