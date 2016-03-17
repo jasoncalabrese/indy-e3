@@ -18,40 +18,40 @@
     "suggested": {
       "bg": 111, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-03-17T21:38:06.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 93<110, but Delta +1 > Exp. Delta -3.9; cancel", 
-      "eventualBG": 93, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 3.4 Target: 115 Deviation: 15 BGI: -4.48", 
-      "tick": "+1"
+      "snoozeBG": 107, 
+      "timestamp": "2016-03-17T21:43:39.000Z", 
+      "rate": 0.1, 
+      "reason": "Eventual BG 95<110, setting 0.1U/hr", 
+      "eventualBG": 95, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 53 Boluses: 3.4 Target: 115 Deviation: 14 BGI: -4.2", 
+      "tick": "+0"
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-03-17T21:38:06.000Z", 
-      "basaliob": -0.29, 
-      "activity": 0.0112, 
-      "bolussnooze": 0.138, 
-      "iob": 0.416
+      "netbasalinsulin": -0.1, 
+      "timestamp": "2016-03-17T21:43:39.000Z", 
+      "basaliob": -0.279, 
+      "activity": 0.0105, 
+      "bolussnooze": 0.098, 
+      "iob": 0.374
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 0.1, 
         "temp": "absolute"
       }, 
       "bg": 111, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-03-17T21:38:29.000Z", 
-      "reason": "Eventual BG 93<110, but Delta +1 > Exp. Delta -3.9; cancel", 
-      "rate": 0, 
-      "eventualBG": 93, 
+      "snoozeBG": 107, 
+      "timestamp": "2016-03-17T21:44:02.000Z", 
+      "reason": "Eventual BG 95<110, setting 0.1U/hr", 
+      "rate": 0.1, 
+      "eventualBG": 95, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 3.4 Target: 115 Deviation: 15 BGI: -4.48", 
-      "tick": "+1"
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 53 Boluses: 3.4 Target: 115 Deviation: 14 BGI: -4.2", 
+      "tick": "+0"
     }
   }, 
   "mmtune": {
