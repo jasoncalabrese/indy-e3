@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 113, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2016-03-18T17:46:35.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 72<110, but Delta +6 > Exp. Delta -0.3; cancel", 
-      "eventualBG": 72, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.85 Target: 115 Deviation: 12 BGI: -1.48", 
-      "tick": "+6"
+      "snoozeBG": 133, 
+      "timestamp": "2016-03-18T17:50:14.000Z", 
+      "rate": 1.4, 
+      "reason": "Eventual BG 134>=120, no temp, setting 1.4U/hr", 
+      "eventualBG": 134, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 18 Boluses: 0.85 Target: 100 Deviation: 21 BGI: -1.68", 
+      "tick": "+7"
     }, 
     "iob": {
       "netbasalinsulin": -0.15, 
-      "timestamp": "2016-03-18T17:46:35.000Z", 
-      "basaliob": -0.167, 
-      "activity": 0.0037, 
-      "bolussnooze": 0.444, 
-      "iob": 0.575
+      "timestamp": "2016-03-18T17:50:13.000Z", 
+      "basaliob": -0.16, 
+      "activity": 0.0042, 
+      "bolussnooze": 0.359, 
+      "iob": 0.554
     }, 
     "enacted": {
       "requested": {
-        "duration": 0, 
-        "rate": 0, 
+        "duration": 30, 
+        "rate": 1.4, 
         "temp": "absolute"
       }, 
-      "bg": 106, 
+      "bg": 113, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2016-03-18T17:46:58.000Z", 
-      "reason": "Eventual BG 72<110, but Delta +6 > Exp. Delta -0.3; cancel", 
-      "rate": 0, 
-      "eventualBG": 72, 
+      "snoozeBG": 133, 
+      "timestamp": "2016-03-18T17:50:25.000Z", 
+      "reason": "Eventual BG 134>=120, no temp, setting 1.4U/hr", 
+      "rate": 1.375, 
+      "eventualBG": 134, 
       "recieved": true, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.85 Target: 115 Deviation: 12 BGI: -1.48", 
-      "tick": "+6"
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 18 Boluses: 0.85 Target: 100 Deviation: 21 BGI: -1.68", 
+      "tick": "+7"
     }
   }, 
   "mmtune": {
