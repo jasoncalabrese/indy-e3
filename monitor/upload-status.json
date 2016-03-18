@@ -34,6 +34,24 @@
       "activity": 0.0085, 
       "bolussnooze": 0, 
       "iob": 0.232
+    }, 
+    "enacted": {
+      "requested": {
+        "duration": 30, 
+        "rate": 0.7, 
+        "temp": "absolute"
+      }, 
+      "bg": 140, 
+      "temp": "absolute", 
+      "snoozeBG": 127, 
+      "timestamp": "2016-03-18T00:50:07.000Z", 
+      "reason": "Eventual BG 127>=120, temp 0.5<0.7U/hr", 
+      "rate": 0.675, 
+      "eventualBG": 127, 
+      "recieved": true, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.3 Target: 115 Deviation: 6 BGI: -3.4", 
+      "tick": "+1"
     }
   }, 
   "mmtune": {
