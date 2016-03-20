@@ -2,6 +2,63 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-19T19:07:11 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-19T19:07:11", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "0bc7135310"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-19T19:07:11 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-19T19:07:11", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "0bc7135310"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-19T19:07:08 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-19T19:07:08", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "08c7135310"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-19T19:07:08 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-19T19:07:08", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "08c7135310"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-03-19T19:07:07 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-03-19T19:07:07", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "07c7135310"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-03-19T19:07:07 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-03-19T19:07:07", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "07c7135310"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-03-19T18:37:40 head[2], body[0] op[0x16]", 
     "timestamp": "2016-03-19T18:37:40", 
     "_body": "", 
@@ -1852,16 +1909,5 @@
     "food_estimate": 1.0, 
     "carb_input": 18, 
     "sensitivity": 80
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 39600000, 
-    "_description": "BasalProfileStart 2016-03-19T13:07:09 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-03-19T13:07:09", 
-    "_body": "161400", 
-    "profile_index": 5, 
-    "_head": "7b05", 
-    "rate": 0.5, 
-    "_date": "09c70d1310"
   }
 ]
