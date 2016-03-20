@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 186, 
+      "bg": 182, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-03-20T01:07:32.000Z", 
-      "reason": "Eventual BG 102<110, Snooze BG 110, temp 0 ~< req 0.36U/hr", 
-      "eventualBG": 102, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 2.2 Target: 115 Deviation: 17 BGI: -12.88", 
-      "tick": -5
+      "snoozeBG": 118, 
+      "timestamp": "2016-03-20T01:12:48.000Z", 
+      "rate": 0.5, 
+      "reason": "114-118 in range: no temp required; setting current basal of 0.5 as temp", 
+      "eventualBG": 114, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 2.2 Target: 115 Deviation: 20 BGI: -12.32", 
+      "tick": -4
     }, 
     "iob": {
-      "netbasalinsulin": 1, 
-      "timestamp": "2016-03-20T01:07:31.000Z", 
-      "activity": 0.0322, 
-      "basaliob": 0.3, 
-      "hightempinsulin": 1.5, 
-      "bolussnooze": 0.063, 
-      "iob": 1.266
+      "netbasalinsulin": 0.9, 
+      "timestamp": "2016-03-20T01:12:48.000Z", 
+      "activity": 0.0308, 
+      "basaliob": 0.208, 
+      "hightempinsulin": 1.45, 
+      "bolussnooze": 0.031, 
+      "iob": 1.094
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 0.5, 
         "temp": "absolute"
       }, 
-      "bg": 208, 
+      "bg": 182, 
       "temp": "absolute", 
-      "snoozeBG": 91, 
-      "timestamp": "2016-03-20T00:54:00.000Z", 
-      "reason": "Eventual BG 58<110, setting -0.7U/hr", 
-      "rate": 0, 
-      "eventualBG": 58, 
+      "snoozeBG": 118, 
+      "timestamp": "2016-03-20T01:13:09.000Z", 
+      "reason": "114-118 in range: no temp required; setting current basal of 0.5 as temp", 
+      "rate": 0.5, 
+      "eventualBG": 114, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 21 Boluses: 3.35 Target: 115 Deviation: 1 BGI: -12.32", 
-      "tick": -10
+      "mealAssist": "Off: Carbs: 0 Boluses: 2.2 Target: 115 Deviation: 20 BGI: -12.32", 
+      "tick": -4
     }
   }, 
   "mmtune": {
