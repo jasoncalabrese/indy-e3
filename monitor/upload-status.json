@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 127, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 95, 
-      "timestamp": "2016-03-20T16:57:37.000Z", 
-      "reason": "122-95 in range: no temp required, temp 0.55 ~ req 0.57U/hr", 
-      "eventualBG": 122, 
-      "mealAssist": "On: 56%, 56%, Carbs: 24 Boluses: 2.4 Target: 106.6 Deviation: 45 BGI: -8.48", 
-      "tick": "+8"
+      "snoozeBG": 86, 
+      "timestamp": "2016-03-20T17:04:07.000Z", 
+      "rate": 0, 
+      "reason": "Meal assist: 24g, 2.4U, setting -0.692U/hr", 
+      "eventualBG": 85, 
+      "duration": 30, 
+      "mealAssist": "On: 25%, 25%, Carbs: 24 Boluses: 2.4 Target: 111.25 Deviation: 36 BGI: -8.96", 
+      "tick": "+3"
     }, 
     "iob": {
       "netbasalinsulin": -0.35, 
-      "timestamp": "2016-03-20T16:57:37.000Z", 
-      "activity": 0.0212, 
-      "basaliob": -0.188, 
+      "timestamp": "2016-03-20T17:04:06.000Z", 
+      "activity": 0.0224, 
+      "basaliob": -0.183, 
       "hightempinsulin": 0.2, 
-      "bolussnooze": 0.307, 
-      "iob": 1.424
+      "bolussnooze": 0.23, 
+      "iob": 1.349
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 119, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
-      "timestamp": "2016-03-20T16:53:51.000Z", 
-      "reason": "104-92 in range: no temp required; setting current basal of 0.57 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 104, 
+      "snoozeBG": 86, 
+      "timestamp": "2016-03-20T17:04:29.000Z", 
+      "reason": "Meal assist: 24g, 2.4U, setting -0.692U/hr", 
+      "rate": 0, 
+      "eventualBG": 85, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 53%, 53%, Carbs: 24 Boluses: 2.4 Target: 107.05 Deviation: 42 BGI: -7.72", 
-      "tick": "+7"
+      "mealAssist": "On: 25%, 25%, Carbs: 24 Boluses: 2.4 Target: 111.25 Deviation: 36 BGI: -8.96", 
+      "tick": "+3"
     }
   }, 
   "mmtune": {
