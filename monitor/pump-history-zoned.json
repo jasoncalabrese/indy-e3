@@ -1,5 +1,83 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-19T19:11:01 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-19T19:11:01-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c1d032bc00335c0408fc018cbc02e07d01825d04239d00a4dd0106bd0", 
+        "data": [
+          {
+            "amount": 0.075, 
+            "age": 43
+          }, 
+          {
+            "amount": 0.075, 
+            "age": 53
+          }, 
+          {
+            "amount": 1.6, 
+            "age": 143
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 203
+          }, 
+          {
+            "amount": 1.15, 
+            "age": 263
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 293
+          }, 
+          {
+            "amount": 1.65, 
+            "age": 313
+          }, 
+          {
+            "amount": 0.25, 
+            "age": 333
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 363
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.35, 
+    "duration": 0, 
+    "amount": 0.35, 
+    "unabsorbed": 0.35, 
+    "_head": "01000e000e000e00", 
+    "type": "normal", 
+    "_date": "01cb331310"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-03-19T19:11:01 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-19T19:11:01-07:00", 
+    "_body": "0a5000a0506e000018000000001878", 
+    "carb_input": 10, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.6, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 0.6, 
+    "_date": "01cb131310"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-03-19T19:07:11 head[2], body[0] op[0x16]", 
     "timestamp": "2016-03-19T19:07:11-07:00", 
