@@ -1,5 +1,87 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-20T19:38:36 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-20T19:38:36-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[32], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c201c14c0481ec00c32c00246c0028cc02c54d0085ed01872d00ea4d006b8d0", 
+        "data": [
+          {
+            "amount": 0.7, 
+            "age": 20
+          }, 
+          {
+            "amount": 1.8, 
+            "age": 30
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 50
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 70
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 140
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 340
+          }, 
+          {
+            "amount": 0.2, 
+            "age": 350
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 370
+          }, 
+          {
+            "amount": 0.35, 
+            "age": 420
+          }, 
+          {
+            "amount": 0.15, 
+            "age": 440
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.25, 
+    "duration": 0, 
+    "amount": 1.25, 
+    "unabsorbed": 2.6, 
+    "_head": "0100320032006800", 
+    "type": "normal", 
+    "_date": "24e6331410"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-03-20T19:38:36 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-20T19:38:36-07:00", 
+    "_body": "1e5000a0506e00004a000000004a78", 
+    "carb_input": 30, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 1.85, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 1.85, 
+    "_date": "24e6131410"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-03-20T19:33:20 head[2], body[0] op[0x16]", 
     "timestamp": "2016-03-20T19:33:20-07:00", 
