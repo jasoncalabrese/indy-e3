@@ -11,46 +11,48 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 81.625, 
+    "reservoir": 81.6, 
     "clock": "2016-03-20T19:28:53-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 113, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 211, 
-      "timestamp": "2016-03-21T02:27:52.000Z", 
-      "reason": "Eventual BG -109<110, bolus snooze: eventual BG range -109-211, temp 0.5 ~ req 0.5U/hr", 
-      "eventualBG": -109, 
-      "mealAssist": "Off: Carbs: 64 Boluses: 2.8 Target: 115 Deviation: -4 BGI: 0.32", 
-      "tick": "+0"
+      "snoozeBG": 228, 
+      "timestamp": "2016-03-21T02:33:50.000Z", 
+      "rate": 0.7, 
+      "reason": "Eventual BG -78<110, bolus snooze: eventual BG range -78-228; setting current basal of 0.7 as temp", 
+      "eventualBG": -78, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 64 Boluses: 2.8 Target: 115 Deviation: -1 BGI: 0.56", 
+      "tick": "+2"
     }, 
     "iob": {
-      "netbasalinsulin": -0.5, 
-      "timestamp": "2016-03-21T02:27:51.000Z", 
-      "activity": -0.0008, 
-      "basaliob": -0.039, 
-      "hightempinsulin": 0.35, 
-      "bolussnooze": 2.669, 
-      "iob": 2.723
+      "netbasalinsulin": -1.1, 
+      "timestamp": "2016-03-21T02:33:49.000Z", 
+      "activity": -0.0014, 
+      "basaliob": -0.334, 
+      "hightempinsulin": 0.25, 
+      "bolussnooze": 2.553, 
+      "iob": 2.397
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.5, 
+        "rate": 0.7, 
         "temp": "absolute"
       }, 
-      "bg": 113, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 221, 
-      "timestamp": "2016-03-21T02:23:07.000Z", 
-      "reason": "Eventual BG -107<110, bolus snooze: eventual BG range -107-221; setting current basal of 0.5 as temp", 
-      "rate": 0.5, 
-      "eventualBG": -107, 
+      "snoozeBG": 228, 
+      "timestamp": "2016-03-21T02:34:11.000Z", 
+      "reason": "Eventual BG -78<110, bolus snooze: eventual BG range -78-228; setting current basal of 0.7 as temp", 
+      "rate": 0.675, 
+      "eventualBG": -78, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 64 Boluses: 2.8 Target: 115 Deviation: -2 BGI: 1.28", 
-      "tick": -1
+      "mealAssist": "Off: Carbs: 64 Boluses: 2.8 Target: 115 Deviation: -1 BGI: 0.56", 
+      "tick": "+2"
     }
   }, 
   "mmtune": {
