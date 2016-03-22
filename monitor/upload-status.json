@@ -7,32 +7,34 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-22T01:03:34.000Z", 
+      "timestamp": "2016-03-22T01:06:14.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 55.7, 
-    "clock": "2016-03-21T18:02:17-07:00"
+    "clock": "2016-03-21T18:04:56-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 98, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-22T01:04:29.000Z", 
-      "reason": "Meal assist: 18g, 1.4U, bolus snooze: eventual BG range 27-146, temp 0.5 ~ req 0.5U/hr", 
-      "eventualBG": 27, 
-      "mealAssist": "On: 3%, 3%, Carbs: 18 Boluses: 1.4 Target: 114.55000000000001 Deviation: 7 BGI: -2.16", 
-      "tick": "+1"
+      "snoozeBG": 156, 
+      "timestamp": "2016-03-22T01:07:46.000Z", 
+      "rate": 0.5, 
+      "reason": "Meal assist: 18g, 1.4U, bolus snooze: eventual BG range 56-156; setting current basal of 0.5 as temp", 
+      "eventualBG": 56, 
+      "duration": 30, 
+      "mealAssist": "On: 22%, 22%, Carbs: 18 Boluses: 1.4 Target: 111.7 Deviation: 15 BGI: -2.2", 
+      "tick": "+5"
     }, 
     "iob": {
       "netbasalinsulin": 0.05, 
-      "timestamp": "2016-03-22T01:04:29.000Z", 
-      "activity": 0.0054, 
-      "basaliob": -0.197, 
+      "timestamp": "2016-03-22T01:07:45.000Z", 
+      "activity": 0.0055, 
+      "basaliob": -0.195, 
       "hightempinsulin": 0.5, 
-      "bolussnooze": 1.007, 
-      "iob": 1
+      "bolussnooze": 0.975, 
+      "iob": 0.985
     }, 
     "enacted": {
       "requested": {
@@ -40,69 +42,64 @@
         "rate": 0.5, 
         "temp": "absolute"
       }, 
-      "bg": 97, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 137, 
-      "timestamp": "2016-03-22T00:50:22.000Z", 
-      "reason": "Eventual BG 4<110, bolus snooze: eventual BG range 4-137; setting current basal of 0.5 as temp", 
+      "snoozeBG": 156, 
+      "timestamp": "2016-03-22T01:08:10.000Z", 
+      "reason": "Meal assist: 18g, 1.4U, bolus snooze: eventual BG range 56-156; setting current basal of 0.5 as temp", 
       "rate": 0.5, 
-      "eventualBG": 4, 
+      "eventualBG": 56, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 1.4 Target: 115 Deviation: -11 BGI: -1.88", 
-      "tick": -3
+      "mealAssist": "On: 22%, 22%, Carbs: 18 Boluses: 1.4 Target: 111.7 Deviation: 15 BGI: -2.2", 
+      "tick": "+5"
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.560", 
-        5, 
-        -72
+        4, 
+        -92
       ], 
       [
         "916.580", 
         5, 
-        -60
+        -90
       ], 
       [
         "916.600", 
         5, 
-        -59
+        -88
       ], 
       [
         "916.620", 
         5, 
-        -59
+        -85
       ], 
       [
         "916.640", 
         5, 
-        -58
+        -85
       ], 
       [
         "916.660", 
-        4, 
-        -67
+        5, 
+        -85
       ], 
       [
         "916.680", 
         5, 
-        -69
+        -87
       ], 
       [
         "916.700", 
-        5, 
-        -76
-      ], 
-      [
-        "916.720", 
-        1, 
-        -97
+        4, 
+        -95
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-03-22T01:03:04.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-03-22T01:05:31.000Z", 
     "usedDefault": false
   }
 }
