@@ -16,43 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 170, 
+      "bg": 176, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-22T20:27:29.000Z", 
-      "rate": 1.4, 
-      "reason": "Eventual BG 169>=120, temp 1.3<1.421U/hr", 
-      "eventualBG": 169, 
+      "snoozeBG": 155, 
+      "timestamp": "2016-03-22T20:34:01.000Z", 
+      "rate": 1.65, 
+      "reason": "Eventual BG 180>=120, temp 1.375<1.665U/hr", 
+      "eventualBG": 180, 
       "duration": 30, 
-      "mealAssist": "On: 39%, 39%, Carbs: 35 Boluses: 2.05 Target: 109.15 Deviation: 35 BGI: -6.84", 
-      "tick": "+5"
+      "mealAssist": "On: 44%, 44%, Carbs: 35 Boluses: 2.05 Target: 108.4 Deviation: 36 BGI: -6.56", 
+      "tick": "+6"
     }, 
     "iob": {
-      "netbasalinsulin": -0.4, 
-      "timestamp": "2016-03-22T20:27:28.000Z", 
-      "activity": 0.0171, 
-      "basaliob": -0.008, 
-      "hightempinsulin": 0.3, 
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-03-22T20:34:00.000Z", 
+      "activity": 0.0164, 
+      "basaliob": 0.047, 
+      "hightempinsulin": 0.35, 
       "bolussnooze": 0, 
-      "iob": 0.733
+      "iob": 0.718
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 1.4, 
+        "rate": 1.65, 
         "temp": "absolute"
       }, 
-      "bg": 170, 
+      "bg": 176, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-22T20:27:50.000Z", 
-      "reason": "Eventual BG 169>=120, temp 1.3<1.421U/hr", 
-      "rate": 1.375, 
-      "eventualBG": 169, 
+      "snoozeBG": 155, 
+      "timestamp": "2016-03-22T20:34:22.000Z", 
+      "reason": "Eventual BG 180>=120, temp 1.375<1.665U/hr", 
+      "rate": 1.625, 
+      "eventualBG": 180, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 39%, 39%, Carbs: 35 Boluses: 2.05 Target: 109.15 Deviation: 35 BGI: -6.84", 
-      "tick": "+5"
+      "mealAssist": "On: 44%, 44%, Carbs: 35 Boluses: 2.05 Target: 108.4 Deviation: 36 BGI: -6.56", 
+      "tick": "+6"
     }
   }, 
   "mmtune": {
