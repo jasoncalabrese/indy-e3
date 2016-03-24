@@ -11,47 +11,47 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 98.425, 
+    "reservoir": 98.4, 
     "clock": "2016-03-24T09:18:36-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 87, 
+      "bg": 83, 
       "temp": "absolute", 
-      "snoozeBG": 108, 
-      "timestamp": "2016-03-24T16:17:35.000Z", 
-      "rate": 0.2, 
-      "reason": "Eventual BG 108<110, setting 0.22U/hr", 
-      "eventualBG": 108, 
+      "snoozeBG": 105, 
+      "timestamp": "2016-03-24T16:22:31.000Z", 
+      "rate": 0.05, 
+      "reason": "Eventual BG 105<110, setting 0.07U/hr", 
+      "eventualBG": 105, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 30 Boluses: 2.25 Target: 115 Deviation: -2 BGI: -2.64", 
+      "mealAssist": "Off: Carbs: 30 Boluses: 2.25 Target: 115 Deviation: -7 BGI: -2.2", 
       "tick": -4
     }, 
     "iob": {
       "netbasalinsulin": -0.55, 
-      "timestamp": "2016-03-24T16:17:34.000Z", 
-      "activity": 0.0066, 
-      "basaliob": -0.487, 
+      "timestamp": "2016-03-24T16:22:31.000Z", 
+      "activity": 0.0055, 
+      "basaliob": -0.522, 
       "hightempinsulin": 0.35, 
       "bolussnooze": 0, 
-      "iob": -0.293
+      "iob": -0.363
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.2, 
+        "rate": 0.05, 
         "temp": "absolute"
       }, 
-      "bg": 87, 
+      "bg": 83, 
       "temp": "absolute", 
-      "snoozeBG": 108, 
-      "timestamp": "2016-03-24T16:17:58.000Z", 
-      "reason": "Eventual BG 108<110, setting 0.22U/hr", 
-      "rate": 0.2, 
-      "eventualBG": 108, 
+      "snoozeBG": 105, 
+      "timestamp": "2016-03-24T16:22:52.000Z", 
+      "reason": "Eventual BG 105<110, setting 0.07U/hr", 
+      "rate": 0.05, 
+      "eventualBG": 105, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 30 Boluses: 2.25 Target: 115 Deviation: -2 BGI: -2.64", 
+      "mealAssist": "Off: Carbs: 30 Boluses: 2.25 Target: 115 Deviation: -7 BGI: -2.2", 
       "tick": -4
     }
   }, 
