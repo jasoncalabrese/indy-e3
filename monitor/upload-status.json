@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 115, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 103, 
-      "timestamp": "2016-03-24T21:17:46.000Z", 
-      "reason": "Eventual BG 39<110, Snooze BG 103, temp 0.1 ~< req 0.04U/hr", 
-      "eventualBG": 39, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 2.75 Target: 115 Deviation: 10 BGI: -7.32", 
+      "snoozeBG": 96, 
+      "timestamp": "2016-03-24T21:22:31.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 45<110, Snooze BG 96, setting -0.1U/hr", 
+      "eventualBG": 45, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 53 Boluses: 2.75 Target: 115 Deviation: 11 BGI: -7.12", 
       "tick": -3
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-03-24T21:17:45.000Z", 
-      "activity": 0.0183, 
-      "basaliob": -0.038, 
+      "netbasalinsulin": 0.05, 
+      "timestamp": "2016-03-24T21:22:30.000Z", 
+      "activity": 0.0178, 
+      "basaliob": -0.052, 
       "hightempinsulin": 0.55, 
-      "bolussnooze": 0.535, 
-      "iob": 1.071
+      "bolussnooze": 0.428, 
+      "iob": 0.976
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.1, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 118, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 106, 
-      "timestamp": "2016-03-24T21:12:46.000Z", 
-      "reason": "Eventual BG 32<110, Snooze BG 106, setting 0.12U/hr", 
-      "rate": 0.1, 
-      "eventualBG": 32, 
+      "snoozeBG": 96, 
+      "timestamp": "2016-03-24T21:22:52.000Z", 
+      "reason": "Eventual BG 45<110, Snooze BG 96, setting -0.1U/hr", 
+      "rate": 0, 
+      "eventualBG": 45, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 53 Boluses: 2.75 Target: 115 Deviation: 9 BGI: -7.44", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 53 Boluses: 2.75 Target: 115 Deviation: 11 BGI: -7.12", 
+      "tick": -3
     }
   }, 
   "mmtune": {
