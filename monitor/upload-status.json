@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 200, 
+      "bg": 184, 
       "temp": "absolute", 
-      "snoozeBG": 146, 
-      "timestamp": "2016-03-25T15:46:04.000Z", 
-      "reason": "Eventual BG 116>110 but Avg. Delta -11.00 < Exp. Delta -8.5, temp 0.55 ~ req 0.57U/hr", 
-      "eventualBG": 116, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 3.05 Target: 115 Deviation: 19 BGI: -8.44", 
-      "tick": -11
+      "snoozeBG": 103, 
+      "timestamp": "2016-03-25T15:50:38.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 76<110, setting -0.03U/hr", 
+      "eventualBG": 76, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 3.05 Target: 115 Deviation: -14 BGI: -8.08", 
+      "tick": -16
     }, 
     "iob": {
-      "netbasalinsulin": 0.8, 
-      "timestamp": "2016-03-25T15:46:03.000Z", 
-      "activity": 0.0211, 
-      "basaliob": 0.545, 
-      "hightempinsulin": 1.2, 
-      "bolussnooze": 0.25, 
-      "iob": 1.283
+      "netbasalinsulin": 0.75, 
+      "timestamp": "2016-03-25T15:50:38.000Z", 
+      "activity": 0.0202, 
+      "basaliob": 0.526, 
+      "hightempinsulin": 1.15, 
+      "bolussnooze": 0.225, 
+      "iob": 1.176
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 211, 
+      "bg": 184, 
       "temp": "absolute", 
-      "snoozeBG": 143, 
-      "timestamp": "2016-03-25T15:41:03.000Z", 
-      "reason": "111-143 in range: no temp required; setting current basal of 0.57 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 111, 
+      "snoozeBG": 103, 
+      "timestamp": "2016-03-25T15:51:02.000Z", 
+      "reason": "Eventual BG 76<110, setting -0.03U/hr", 
+      "rate": 0, 
+      "eventualBG": 76, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 3.05 Target: 115 Deviation: 15 BGI: -8.88", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 24 Boluses: 3.05 Target: 115 Deviation: -14 BGI: -8.08", 
+      "tick": -16
     }
   }, 
   "mmtune": {
