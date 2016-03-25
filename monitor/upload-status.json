@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 206, 
+      "bg": 211, 
       "temp": "absolute", 
-      "snoozeBG": 147, 
-      "timestamp": "2016-03-25T15:16:07.000Z", 
-      "rate": 1.5, 
-      "reason": "Eventual BG 182>=120, temp 1.175<1.494U/hr", 
-      "eventualBG": 182, 
+      "snoozeBG": 156, 
+      "timestamp": "2016-03-25T15:20:26.000Z", 
+      "rate": 1.75, 
+      "reason": "Eventual BG 195>=120, temp 1.5<1.741U/hr", 
+      "eventualBG": 195, 
       "duration": 30, 
-      "mealAssist": "On: 33%, 33%, Carbs: 24 Boluses: 2.75 Target: 110.05 Deviation: 46 BGI: -11.2", 
+      "mealAssist": "On: 39%, 39%, Carbs: 24 Boluses: 2.75 Target: 109.15 Deviation: 46 BGI: -10.72", 
       "tick": "+5"
     }, 
     "iob": {
-      "netbasalinsulin": 0.3, 
-      "timestamp": "2016-03-25T15:16:06.000Z", 
-      "activity": 0.028, 
-      "basaliob": 0.275, 
-      "hightempinsulin": 0.85, 
+      "netbasalinsulin": 0.4, 
+      "timestamp": "2016-03-25T15:20:25.000Z", 
+      "activity": 0.0268, 
+      "basaliob": 0.315, 
+      "hightempinsulin": 0.9, 
       "bolussnooze": 0, 
-      "iob": 1.317
+      "iob": 1.264
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 1.5, 
+        "rate": 1.75, 
         "temp": "absolute"
       }, 
-      "bg": 206, 
+      "bg": 211, 
       "temp": "absolute", 
-      "snoozeBG": 147, 
-      "timestamp": "2016-03-25T15:16:29.000Z", 
-      "reason": "Eventual BG 182>=120, temp 1.175<1.494U/hr", 
-      "rate": 1.5, 
-      "eventualBG": 182, 
+      "snoozeBG": 156, 
+      "timestamp": "2016-03-25T15:20:47.000Z", 
+      "reason": "Eventual BG 195>=120, temp 1.5<1.741U/hr", 
+      "rate": 1.75, 
+      "eventualBG": 195, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 33%, 33%, Carbs: 24 Boluses: 2.75 Target: 110.05 Deviation: 46 BGI: -11.2", 
+      "mealAssist": "On: 39%, 39%, Carbs: 24 Boluses: 2.75 Target: 109.15 Deviation: 46 BGI: -10.72", 
       "tick": "+5"
     }
   }, 
