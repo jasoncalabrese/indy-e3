@@ -1,5 +1,101 @@
 [
   {
+    "programmed": 0.7, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-03-24T18:35:46 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-03-24T18:35:46", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.85, 
+            "age": 127
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 167
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 307
+          }, 
+          {
+            "amount": 1.75, 
+            "age": 397
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e227fc00ca7c02833d0468dd0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "01001c001c000800", 
+    "amount": 0.7, 
+    "unabsorbed": 0.2, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "2ee3321810"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 194, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-03-24T18:35:45 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-03-24T18:35:45", 
+    "_body": "005000a0506e240000000008001c78", 
+    "_head": "5bc2", 
+    "unabsorbed_insulin_total": 0.2, 
+    "correction_estimate": 0.9, 
+    "_date": "2de3121810", 
+    "bolus_estimate": 0.7, 
+    "bg_target_low": 110, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-03-24T18:35:19 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-03-24T18:35:19", 
+    "_body": "c23647", 
+    "_head": "3f18", 
+    "amount": 194, 
+    "_date": "13e3527810"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-03-24T18:35:19 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-03-24T18:35:19", 
+    "_body": "", 
+    "_head": "0ac2", 
+    "amount": 194, 
+    "_date": "13e3327810"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-03-24T18:34:53 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-03-24T18:34:53", 
+    "_body": "c23647", 
+    "_head": "3f17", 
+    "amount": 189, 
+    "_date": "35e2b27810"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-03-24T18:34:53 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-03-24T18:34:53", 
+    "_body": "", 
+    "_head": "0abd", 
+    "amount": 189, 
+    "_date": "35e2327810"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-03-24T18:32:44 head[2], body[0] op[0x16]", 
