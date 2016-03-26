@@ -16,43 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 118, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 116, 
-      "timestamp": "2016-03-26T03:16:45.000Z", 
-      "rate": 0.7, 
-      "reason": "Eventual BG 116>110 but Avg. Delta -4.00 < Exp. Delta 1; setting current basal of 0.7 as temp", 
-      "eventualBG": 116, 
+      "snoozeBG": 100, 
+      "timestamp": "2016-03-26T03:20:19.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 100<110, setting -0.05U/hr", 
+      "eventualBG": 100, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -12 BGI: 1", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -24 BGI: 0.92", 
+      "tick": -3
     }, 
     "iob": {
-      "netbasalinsulin": -0.65, 
-      "timestamp": "2016-03-26T03:16:44.000Z", 
-      "activity": -0.0025, 
-      "basaliob": -0.122, 
+      "netbasalinsulin": -0.55, 
+      "timestamp": "2016-03-26T03:20:18.000Z", 
+      "activity": -0.0023, 
+      "basaliob": -0.107, 
       "hightempinsulin": 0, 
       "bolussnooze": 0, 
-      "iob": -0.122
+      "iob": -0.107
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.7, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 118, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 116, 
-      "timestamp": "2016-03-26T03:17:06.000Z", 
-      "reason": "Eventual BG 116>110 but Avg. Delta -4.00 < Exp. Delta 1; setting current basal of 0.7 as temp", 
-      "rate": 0.675, 
-      "eventualBG": 116, 
+      "snoozeBG": 100, 
+      "timestamp": "2016-03-26T03:20:30.000Z", 
+      "reason": "Eventual BG 100<110, setting -0.05U/hr", 
+      "rate": 0, 
+      "eventualBG": 100, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -12 BGI: 1", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -24 BGI: 0.92", 
+      "tick": -3
     }
   }, 
   "mmtune": {
