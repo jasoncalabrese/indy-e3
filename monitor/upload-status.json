@@ -16,42 +16,42 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 155, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
-      "timestamp": "2016-03-26T17:41:19.000Z", 
-      "rate": 0.55, 
-      "reason": "Eventual BG 105<110, bolus snooze: eventual BG range 105-141; setting current basal of 0.57 as temp", 
-      "eventualBG": 105, 
+      "snoozeBG": 92, 
+      "timestamp": "2016-03-26T17:50:32.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 56<110, setting -0.58U/hr", 
+      "eventualBG": 56, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: 11 BGI: -6.16", 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -20 BGI: -6", 
       "tick": -8
     }, 
     "iob": {
       "netbasalinsulin": 0.05, 
-      "timestamp": "2016-03-26T17:41:19.000Z", 
-      "activity": 0.0154, 
-      "basaliob": 0.169, 
+      "timestamp": "2016-03-26T17:50:32.000Z", 
+      "activity": 0.015, 
+      "basaliob": 0.164, 
       "hightempinsulin": 0.35, 
-      "bolussnooze": 0.299, 
-      "iob": 0.768
+      "bolussnooze": 0.297, 
+      "iob": 0.733
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 155, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
-      "timestamp": "2016-03-26T17:41:31.000Z", 
-      "reason": "Eventual BG 105<110, bolus snooze: eventual BG range 105-141; setting current basal of 0.57 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 105, 
+      "snoozeBG": 92, 
+      "timestamp": "2016-03-26T17:50:53.000Z", 
+      "reason": "Eventual BG 56<110, setting -0.58U/hr", 
+      "rate": 0, 
+      "eventualBG": 56, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: 11 BGI: -6.16", 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -20 BGI: -6", 
       "tick": -8
     }
   }, 
