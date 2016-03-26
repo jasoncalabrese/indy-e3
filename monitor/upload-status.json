@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 131, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 106, 
-      "timestamp": "2016-03-26T00:25:23.000Z", 
-      "reason": "Eventual BG 106<110, temp 0 ~< req 0.05U/hr", 
-      "eventualBG": 106, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -10 BGI: -0.68", 
-      "tick": -3
+      "snoozeBG": 113, 
+      "timestamp": "2016-03-26T00:31:12.000Z", 
+      "rate": 0.5, 
+      "reason": "Eventual BG 113>110 but Avg. Delta -2.00 < Exp. Delta -0.8; setting current basal of 0.5 as temp", 
+      "eventualBG": 113, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -7 BGI: -0.84", 
+      "tick": -1
     }, 
     "iob": {
       "netbasalinsulin": -0.1, 
-      "timestamp": "2016-03-26T00:25:22.000Z", 
-      "activity": 0.0017, 
-      "basaliob": 0.185, 
+      "timestamp": "2016-03-26T00:31:11.000Z", 
+      "activity": 0.0021, 
+      "basaliob": 0.126, 
       "hightempinsulin": 0.7, 
       "bolussnooze": 0, 
-      "iob": 0.185
+      "iob": 0.126
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0, 
+        "rate": 0.5, 
         "temp": "absolute"
       }, 
-      "bg": 138, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 102, 
-      "timestamp": "2016-03-26T00:07:54.000Z", 
-      "reason": "Eventual BG 102<110, setting -0.15U/hr", 
-      "rate": 0, 
-      "eventualBG": 102, 
+      "snoozeBG": 113, 
+      "timestamp": "2016-03-26T00:31:41.000Z", 
+      "reason": "Eventual BG 113>110 but Avg. Delta -2.00 < Exp. Delta -0.8; setting current basal of 0.5 as temp", 
+      "rate": 0.5, 
+      "eventualBG": 113, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -8 BGI: -0.08", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -7 BGI: -0.84", 
+      "tick": -1
     }
   }, 
   "mmtune": {
