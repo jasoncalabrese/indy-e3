@@ -16,23 +16,25 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 100, 
+      "bg": 99, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
-      "timestamp": "2016-03-26T18:25:51.000Z", 
-      "reason": "Eventual BG 77<110, setting -0.65U/hr, but 24m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 77, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -11 BGI: -2.48", 
-      "tick": -4
+      "snoozeBG": 96, 
+      "timestamp": "2016-03-26T18:30:25.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 84<110, setting -0.45U/hr", 
+      "eventualBG": 84, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -9 BGI: -1.88", 
+      "tick": -1
     }, 
     "iob": {
       "netbasalinsulin": 0.15, 
-      "timestamp": "2016-03-26T18:25:50.000Z", 
-      "activity": 0.0062, 
-      "basaliob": -0.106, 
+      "timestamp": "2016-03-26T18:30:24.000Z", 
+      "activity": 0.0047, 
+      "basaliob": -0.164, 
       "hightempinsulin": 0.4, 
-      "bolussnooze": 0.129, 
-      "iob": 0.151
+      "bolussnooze": 0.101, 
+      "iob": 0.077
     }, 
     "enacted": {
       "requested": {
@@ -40,17 +42,17 @@
         "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 109, 
+      "bg": 99, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-03-26T18:15:50.000Z", 
-      "reason": "Eventual BG 79<110, setting -0.2U/hr", 
+      "snoozeBG": 96, 
+      "timestamp": "2016-03-26T18:30:46.000Z", 
+      "reason": "Eventual BG 84<110, setting -0.45U/hr", 
       "rate": 0, 
-      "eventualBG": 79, 
+      "eventualBG": 84, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -9 BGI: -3.52", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.75 Target: 115 Deviation: -9 BGI: -1.88", 
+      "tick": -1
     }
   }, 
   "mmtune": {
