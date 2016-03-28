@@ -351,7 +351,24 @@
         "bolussnooze": 0, 
         "iob": 0.001
       }
-    ]
+    ], 
+    "enacted": {
+      "requested": {
+        "duration": 30, 
+        "rate": 2, 
+        "temp": "absolute"
+      }, 
+      "bg": 162, 
+      "temp": "absolute", 
+      "snoozeBG": 176, 
+      "timestamp": "2016-03-28T22:30:18.000Z", 
+      "reason": "COB: 35, Dev: 39, BGI: -3.88, Target: 115; Eventual BG 217>=120, adj. req. rate:2.0 to maxSafeBasal:2.0, temp 1.3<2.0U/hr", 
+      "rate": 2, 
+      "eventualBG": 217, 
+      "recieved": true, 
+      "duration": 30, 
+      "tick": "+4"
+    }
   }, 
   "mmtune": {
     "scanDetails": [
