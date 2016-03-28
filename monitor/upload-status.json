@@ -7,25 +7,14 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-03-28T15:24:50.000Z", 
+      "timestamp": "2016-03-28T15:28:57.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 43.175, 
-    "clock": "2016-03-28T08:23:56-07:00"
+    "reservoir": 43.125, 
+    "clock": "2016-03-28T08:27:47-07:00"
   }, 
   "openaps": {
-    "suggested": {
-      "bg": 86, 
-      "temp": "absolute", 
-      "snoozeBG": 77, 
-      "timestamp": "2016-03-28T15:25:55.000Z", 
-      "rate": 0.55, 
-      "reason": "COB: 24, Dev: 57, BGI: -11.48, Target: 115; 162-77 in range: no temp required; setting current basal of 0.57 as temp", 
-      "eventualBG": 162, 
-      "duration": 30, 
-      "tick": -2
-    }, 
     "iob": [
       {
         "netbasalinsulin": -0.25, 
@@ -375,46 +364,51 @@
       [
         "916.560", 
         5, 
-        -64
+        -67
       ], 
       [
         "916.580", 
         5, 
-        -61
+        -68
       ], 
       [
         "916.600", 
         5, 
-        -60
+        -70
       ], 
       [
         "916.620", 
         5, 
-        -60
+        -70
       ], 
       [
         "916.640", 
         5, 
-        -60
+        -71
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -72
       ], 
       [
         "916.680", 
         5, 
-        -62
+        -73
       ], 
       [
         "916.700", 
         5, 
-        -76
+        -81
+      ], 
+      [
+        "916.780", 
+        1, 
+        -98
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-03-28T15:24:32.000Z", 
+    "setFreq": 916.56, 
+    "timestamp": "2016-03-28T15:28:23.000Z", 
     "usedDefault": false
   }
 }
