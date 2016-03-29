@@ -16,24 +16,17 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 173, 
+      "bg": 179, 
       "temp": "absolute", 
-      "snoozeBG": 203, 
-      "timestamp": "2016-03-29T18:15:48.000Z", 
-      "reason": "COB: 42, Dev: 67, BGI: -4.2, Target: 115; Eventual BG 237>=120, adj. req. rate:2.7 to maxSafeBasal:2.0, temp 2.25 >~ req 2.0U/hr", 
-      "eventualBG": 237, 
-      "tick": "+7"
+      "snoozeBG": 208, 
+      "timestamp": "2016-03-29T18:20:25.000Z", 
+      "rate": 2, 
+      "reason": "COB: 42, Dev: 63, BGI: -4.56, Target: 115; Eventual BG 244>=120, max_iob 2, adj. req. rate:2.7 to maxSafeBasal:2.0, temp 2.25<2.0U/hr", 
+      "eventualBG": 244, 
+      "duration": 30, 
+      "tick": "+6"
     }, 
     "iob": [
-      {
-        "netbasalinsulin": 1.05, 
-        "activity": 0.0105, 
-        "basaliob": 0.74, 
-        "time": "2016-03-29T18:12:56.000Z", 
-        "hightempinsulin": 1.3, 
-        "bolussnooze": 0.089, 
-        "iob": 1.365
-      }, 
       {
         "netbasalinsulin": 1.1, 
         "activity": 0.0114, 
@@ -348,24 +341,33 @@
         "hightempinsulin": 0.35, 
         "bolussnooze": 0, 
         "iob": 0
+      }, 
+      {
+        "netbasalinsulin": 0.2, 
+        "activity": 0.0001, 
+        "basaliob": 0, 
+        "time": "2016-03-29T21:12:56.000Z", 
+        "hightempinsulin": 0.2, 
+        "bolussnooze": 0, 
+        "iob": 0
       }
     ], 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 2.25, 
+        "rate": 2, 
         "temp": "absolute"
       }, 
-      "bg": 123, 
+      "bg": 179, 
       "temp": "absolute", 
-      "snoozeBG": 203, 
-      "timestamp": "2016-03-29T17:51:17.000Z", 
-      "reason": "COB: 42, Dev: 93, BGI: -2.56, Target: 115; Eventual BG 191>=120, adj. req. rate:2.5 to maxSafeBasal:2.3, temp 2.125<2.3U/hr", 
-      "rate": 2.25, 
-      "eventualBG": 191, 
+      "snoozeBG": 208, 
+      "timestamp": "2016-03-29T18:20:36.000Z", 
+      "reason": "COB: 42, Dev: 63, BGI: -4.56, Target: 115; Eventual BG 244>=120, max_iob 2, adj. req. rate:2.7 to maxSafeBasal:2.0, temp 2.25<2.0U/hr", 
+      "rate": 2, 
+      "eventualBG": 244, 
       "recieved": true, 
       "duration": 30, 
-      "tick": "+16"
+      "tick": "+6"
     }
   }, 
   "mmtune": {
