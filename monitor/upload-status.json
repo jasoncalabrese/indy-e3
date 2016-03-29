@@ -16,26 +16,17 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 126, 
+      "bg": 121, 
       "temp": "absolute", 
-      "snoozeBG": 115, 
-      "timestamp": "2016-03-29T16:25:20.000Z", 
-      "rate": 0.55, 
-      "reason": "COB: 24, Dev: 17, BGI: -5.76, Target: 115; 158-115 in range: no temp required; setting current basal of 0.57 as temp", 
-      "eventualBG": 158, 
+      "snoozeBG": 82, 
+      "timestamp": "2016-03-29T16:30:50.000Z", 
+      "rate": 0, 
+      "reason": "COB: 24, Dev: 2, BGI: -5.4, Target: 115; Eventual BG 75<110, setting -1.08U/hr", 
+      "eventualBG": 75, 
       "duration": 30, 
-      "tick": -3
+      "tick": -5
     }, 
     "iob": [
-      {
-        "netbasalinsulin": 0.65, 
-        "activity": 0.0144, 
-        "basaliob": 0.495, 
-        "time": "2016-03-29T16:22:56.000Z", 
-        "hightempinsulin": 0.9, 
-        "bolussnooze": 0, 
-        "iob": 0.586
-      }, 
       {
         "netbasalinsulin": 0.7, 
         "activity": 0.0135, 
@@ -350,24 +341,33 @@
         "hightempinsulin": 0, 
         "bolussnooze": 0, 
         "iob": 0
+      }, 
+      {
+        "netbasalinsulin": 0, 
+        "activity": 0, 
+        "basaliob": 0, 
+        "time": "2016-03-29T19:22:56.000Z", 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": 0
       }
     ], 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 0, 
         "temp": "absolute"
       }, 
-      "bg": 126, 
+      "bg": 121, 
       "temp": "absolute", 
-      "snoozeBG": 115, 
-      "timestamp": "2016-03-29T16:25:31.000Z", 
-      "reason": "COB: 24, Dev: 17, BGI: -5.76, Target: 115; 158-115 in range: no temp required; setting current basal of 0.57 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 158, 
+      "snoozeBG": 82, 
+      "timestamp": "2016-03-29T16:31:11.000Z", 
+      "reason": "COB: 24, Dev: 2, BGI: -5.4, Target: 115; Eventual BG 75<110, setting -1.08U/hr", 
+      "rate": 0, 
+      "eventualBG": 75, 
       "recieved": true, 
       "duration": 30, 
-      "tick": -3
+      "tick": -5
     }
   }, 
   "mmtune": {
