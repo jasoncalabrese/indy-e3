@@ -1,55 +1,30 @@
 {
-  "_id": "56faf89e65110bbfc19297e0",
-  "carbs": 10,
-  "ratio": "18",
-  "bg": "58",
-  "glucose": 58,
-  "glucoseType": "BolusWizard",
-  "wizard": {
-    "_type": "BolusWizard",
-    "bg": 58,
-    "_description": "BolusWizard 2016-03-29T14:48:20 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-03-29T14:48:20-07:00",
-    "_body": "0a5000b4506ee60016f8001c000078",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c0b2850c06ab4c02822d0",
-        "data": [
-          {
-            "amount": 1,
-            "age": 80
-          },
-          {
-            "amount": 2.65,
-            "age": 180
-          },
-          {
-            "amount": 1,
-            "age": 290
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "bg_target_high": 120,
-    "sensitivity": 80,
-    "carb_input": 10,
-    "carb_ratio": 18,
-    "food_estimate": 0.55,
-    "unabsorbed_insulin_total": 0.7,
-    "correction_estimate": 50.55,
-    "bg_target_low": 110,
-    "_head": "5b3a",
-    "bolus_estimate": 0,
-    "_date": "14f00e1d10"
+  "_id": "56fafab765110bbfc19297e5",
+  "duration": 30,
+  "raw_duration": {
+    "_type": "TempBasalDuration",
+    "_description": "TempBasalDuration 2016-03-29T14:55:13 head[2], body[0] op[0x16]",
+    "timestamp": "2016-03-29T14:55:13-07:00",
+    "_body": "",
+    "_head": "1601",
+    "duration (min)": 30,
+    "_date": "0df70e5d10"
   },
-  "timestamp": "2016-03-29T14:48:20-07:00",
-  "created_at": "2016-03-29T14:48:20-07:00",
-  "eventType": "Carb Correction",
-  "notes": "Food estimate 0.55\nCorrection estimate 50.55\nBolus estimate 0\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0\nGlucose was: 58",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
+  "timestamp": "2016-03-29T14:55:13-07:00",
+  "absolute": 0.5,
+  "rate": 0.5,
+  "raw_rate": {
+    "_type": "TempBasal",
+    "temp": "absolute",
+    "_description": "TempBasal 2016-03-29T14:55:13 head[2], body[1] op[0x33]",
+    "timestamp": "2016-03-29T14:55:13-07:00",
+    "_body": "00",
+    "_head": "3314",
+    "rate": 0.5,
+    "_date": "0df70e5d10"
+  },
+  "eventType": "Temp Basal",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+  "created_at": "2016-03-29T14:55:13-07:00",
   "enteredBy": "openaps://medtronic/723"
 }
