@@ -16,24 +16,17 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 184, 
+      "bg": 188, 
       "temp": "absolute", 
-      "snoozeBG": 199, 
-      "timestamp": "2016-03-29T18:25:53.000Z", 
-      "reason": "COB: 42, Dev: 60, BGI: -4.92, Target: 115; Eventual BG 202>=120, max_iob 2, adj. req. rate:2.5 to maxSafeBasal:2.0, temp 2 >~ req 2.0U/hr", 
-      "eventualBG": 202, 
-      "tick": "+5"
+      "snoozeBG": 116, 
+      "timestamp": "2016-03-29T18:30:24.000Z", 
+      "rate": 0.5, 
+      "reason": "COB: 18, Dev: 54, BGI: -5.04, Target: 115; Eventual BG 96<110, but Avg. Delta 4.00 > Exp. Delta -5; setting current basal of 0.5 as temp", 
+      "eventualBG": 96, 
+      "duration": 30, 
+      "tick": "+4"
     }, 
     "iob": [
-      {
-        "netbasalinsulin": 1.15, 
-        "activity": 0.0123, 
-        "basaliob": 0.979, 
-        "time": "2016-03-29T18:22:56.000Z", 
-        "hightempinsulin": 1.4, 
-        "bolussnooze": 0.025, 
-        "iob": 1.497
-      }, 
       {
         "netbasalinsulin": 1.2, 
         "activity": 0.0126, 
@@ -348,24 +341,33 @@
         "hightempinsulin": 0.8, 
         "bolussnooze": 0, 
         "iob": 0.01
+      }, 
+      {
+        "netbasalinsulin": 0.65, 
+        "activity": 0.0009, 
+        "basaliob": 0.005, 
+        "time": "2016-03-29T21:22:56.000Z", 
+        "hightempinsulin": 0.65, 
+        "bolussnooze": 0, 
+        "iob": 0.005
       }
     ], 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 2, 
+        "rate": 0.5, 
         "temp": "absolute"
       }, 
-      "bg": 179, 
+      "bg": 188, 
       "temp": "absolute", 
-      "snoozeBG": 208, 
-      "timestamp": "2016-03-29T18:20:36.000Z", 
-      "reason": "COB: 42, Dev: 63, BGI: -4.56, Target: 115; Eventual BG 244>=120, max_iob 2, adj. req. rate:2.7 to maxSafeBasal:2.0, temp 2.25<2.0U/hr", 
-      "rate": 2, 
-      "eventualBG": 244, 
+      "snoozeBG": 116, 
+      "timestamp": "2016-03-29T18:30:36.000Z", 
+      "reason": "COB: 18, Dev: 54, BGI: -5.04, Target: 115; Eventual BG 96<110, but Avg. Delta 4.00 > Exp. Delta -5; setting current basal of 0.5 as temp", 
+      "rate": 0.5, 
+      "eventualBG": 96, 
       "recieved": true, 
       "duration": 30, 
-      "tick": "+6"
+      "tick": "+4"
     }
   }, 
   "mmtune": {
