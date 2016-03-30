@@ -16,24 +16,15 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 130, 
+      "bg": 133, 
       "temp": "absolute", 
-      "snoozeBG": 158, 
-      "timestamp": "2016-03-30T16:55:47.000Z", 
-      "reason": "COB: 24, Dev: 43, BGI: -2.16, Target: 115; Eventual BG 165>=120, temp 1.875 >~ req 1.645U/hr", 
-      "eventualBG": 165, 
-      "tick": "+5"
+      "snoozeBG": 151, 
+      "timestamp": "2016-03-30T17:00:19.000Z", 
+      "reason": "COB: 24, Dev: 28, BGI: -1.6, Target: 115; Eventual BG 166>=120, temp 1.875 >~ req 1.47U/hr", 
+      "eventualBG": 166, 
+      "tick": "+3"
     }, 
     "iob": [
-      {
-        "netbasalinsulin": 0.7, 
-        "activity": 0.0054, 
-        "basaliob": 0.359, 
-        "time": "2016-03-30T16:52:57.000Z", 
-        "hightempinsulin": 1.15, 
-        "bolussnooze": 0, 
-        "iob": 0.359
-      }, 
       {
         "netbasalinsulin": 0.85, 
         "activity": 0.004, 
@@ -348,6 +339,15 @@
         "hightempinsulin": 0.65, 
         "bolussnooze": 0, 
         "iob": 0.008
+      }, 
+      {
+        "netbasalinsulin": 0.55, 
+        "activity": 0.0008, 
+        "basaliob": 0.005, 
+        "time": "2016-03-30T19:52:57.000Z", 
+        "hightempinsulin": 0.55, 
+        "bolussnooze": 0, 
+        "iob": 0.005
       }
     ], 
     "enacted": {
