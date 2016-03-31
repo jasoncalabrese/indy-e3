@@ -35,6 +35,24 @@
       "hightempinsulin": 0.25, 
       "bolussnooze": 0.525, 
       "iob": 1.178
+    }, 
+    "enacted": {
+      "requested": {
+        "duration": 30, 
+        "rate": 1.15, 
+        "temp": "absolute"
+      }, 
+      "bg": 153, 
+      "temp": "absolute", 
+      "snoozeBG": 150, 
+      "timestamp": "2016-03-31T17:50:09.000Z", 
+      "reason": "Eventual BG 131>=120, temp 0.55<1.146U/hr", 
+      "rate": 1.125, 
+      "eventualBG": 131, 
+      "recieved": true, 
+      "duration": 30, 
+      "mealAssist": "On: 47%, 47%, Carbs: 18 Boluses: 1.25 Target: 108 Deviation: 28 BGI: -3.8", 
+      "tick": "+6"
     }
   }, 
   "mmtune": {
