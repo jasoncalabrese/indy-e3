@@ -16,41 +16,43 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 81, 
+      "bg": 86, 
       "temp": "absolute", 
-      "snoozeBG": 114, 
-      "timestamp": "2016-03-31T02:17:20.000Z", 
-      "reason": "0.1U meal bolus remaining, 114-114 in range: no temp required, temp 0.55 ~ req 0.53U/hr", 
-      "eventualBG": 114, 
-      "mealAssist": "On: 2%, 2%, Carbs: 5 Boluses: 0 Target: 115 Deviation: 1 BGI: 1.4", 
-      "tick": "+7"
+      "snoozeBG": 127, 
+      "timestamp": "2016-03-31T02:20:28.000Z", 
+      "rate": 1.2, 
+      "reason": "0.1U meal bolus remaining, Eventual BG 137>=120, temp 0.55<1.205U/hr", 
+      "eventualBG": 137, 
+      "duration": 30, 
+      "mealAssist": "On: 100%, 100%, Carbs: 5 Boluses: 0 Target: 100 Deviation: 10 BGI: 1.4", 
+      "tick": "+5"
     }, 
     "iob": {
       "netbasalinsulin": -0.7, 
-      "timestamp": "2016-03-31T02:17:19.000Z", 
+      "timestamp": "2016-03-31T02:20:27.000Z", 
       "activity": -0.0035, 
-      "basaliob": -0.402, 
+      "basaliob": -0.393, 
       "hightempinsulin": 0.25, 
       "bolussnooze": 0, 
-      "iob": -0.402
+      "iob": -0.393
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 1.2, 
         "temp": "absolute"
       }, 
-      "bg": 81, 
+      "bg": 86, 
       "temp": "absolute", 
-      "snoozeBG": 119, 
-      "timestamp": "2016-03-31T02:15:14.000Z", 
-      "reason": "0.1U meal bolus remaining, 119-119 in range: no temp required; setting current basal of 0.53 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 119, 
+      "snoozeBG": 127, 
+      "timestamp": "2016-03-31T02:20:48.000Z", 
+      "reason": "0.1U meal bolus remaining, Eventual BG 137>=120, temp 0.55<1.205U/hr", 
+      "rate": 1.175, 
+      "eventualBG": 137, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 2%, 2%, Carbs: 5 Boluses: 0 Target: 115 Deviation: 1 BGI: 1.32", 
-      "tick": "+7"
+      "mealAssist": "On: 100%, 100%, Carbs: 5 Boluses: 0 Target: 100 Deviation: 10 BGI: 1.4", 
+      "tick": "+5"
     }
   }, 
   "mmtune": {
