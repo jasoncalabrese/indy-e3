@@ -1,5 +1,50 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-04-01T20:25:13 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-04-01T20:25:13", 
+    "_body": "325000a0506e00007c000000007c78", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "4d19140110", 
+    "bolus_estimate": 3.1, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 17
+          }, 
+          {
+            "amount": 0.25, 
+            "age": 117
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 307
+          }, 
+          {
+            "amount": 0.35, 
+            "age": 417
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e0c11c00a75c00c33d00ea1d0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 110, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.1, 
+    "carb_input": 50, 
+    "sensitivity": 80
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-04-01T20:14:18 head[2], body[0] op[0x16]", 
@@ -2304,62 +2349,5 @@
     "_head": "3304", 
     "rate": 0.1, 
     "_date": "611a0e4110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-04-01T14:14:23 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-01T14:14:23", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "570e0e4110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-01T14:14:23 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-01T14:14:23", 
-    "_body": "00", 
-    "_head": "3314", 
-    "rate": 0.5, 
-    "_date": "570e0e4110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-04-01T14:14:21 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-01T14:14:21", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "550e0e4110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-01T14:14:21 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-01T14:14:21", 
-    "_body": "00", 
-    "_head": "3314", 
-    "rate": 0.5, 
-    "_date": "550e0e4110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-04-01T14:14:19 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-04-01T14:14:19", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "530e0e4110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-04-01T14:14:19 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-04-01T14:14:19", 
-    "_body": "00", 
-    "_head": "3314", 
-    "rate": 0.5, 
-    "_date": "530e0e4110"
   }
 ]
