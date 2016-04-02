@@ -11,46 +11,48 @@
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 126.875, 
+    "reservoir": 126.85, 
     "clock": "2016-04-01T19:28:57-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 103, 
+      "bg": 108, 
       "temp": "absolute", 
-      "snoozeBG": 120, 
-      "timestamp": "2016-04-02T02:28:06.000Z", 
-      "reason": "0.1U meal bolus remaining, 111-120 in range: no temp required, temp 0.55 ~ req 0.53U/hr", 
-      "eventualBG": 111, 
-      "mealAssist": "On: 12%, 12%, Carbs: 7 Boluses: 0.25 Target: 113 Deviation: 6 BGI: -0.04", 
-      "tick": "+2"
+      "snoozeBG": 155, 
+      "timestamp": "2016-04-02T02:31:00.000Z", 
+      "rate": 2.15, 
+      "reason": "0.2U meal bolus remaining, Eventual BG 155>=120, temp 0.55<2.145U/hr", 
+      "eventualBG": 155, 
+      "duration": 30, 
+      "mealAssist": "On: 100%, 100%, Carbs: 7 Boluses: 0.25 Target: 100 Deviation: 9 BGI: 1.36", 
+      "tick": "+5"
     }, 
     "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2016-04-02T02:28:05.000Z", 
-      "activity": 0.0001, 
-      "basaliob": -0.215, 
-      "hightempinsulin": 0.15, 
-      "bolussnooze": 0.081, 
-      "iob": -0.015
+      "netbasalinsulin": -0.85, 
+      "timestamp": "2016-04-02T02:31:00.000Z", 
+      "activity": -0.0034, 
+      "basaliob": -0.56, 
+      "hightempinsulin": 0, 
+      "bolussnooze": 0.071, 
+      "iob": -0.365
     }, 
     "enacted": {
       "requested": {
         "duration": 30, 
-        "rate": 0.55, 
+        "rate": 2.15, 
         "temp": "absolute"
       }, 
-      "bg": 101, 
+      "bg": 108, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-04-02T02:20:49.000Z", 
-      "reason": "0.1U meal bolus remaining, Meal assist: 7g, 0.25U, bolus snooze: eventual BG range 108-123; setting current basal of 0.53 as temp", 
-      "rate": 0.55, 
-      "eventualBG": 108, 
+      "snoozeBG": 155, 
+      "timestamp": "2016-04-02T02:31:12.000Z", 
+      "reason": "0.2U meal bolus remaining, Eventual BG 155>=120, temp 0.55<2.145U/hr", 
+      "rate": 2.125, 
+      "eventualBG": 155, 
       "recieved": true, 
       "duration": 30, 
-      "mealAssist": "On: 4%, 4%, Carbs: 7 Boluses: 0.25 Target: 114 Deviation: 2 BGI: -0.04", 
-      "tick": "+6"
+      "mealAssist": "On: 100%, 100%, Carbs: 7 Boluses: 0.25 Target: 100 Deviation: 9 BGI: 1.36", 
+      "tick": "+5"
     }
   }, 
   "mmtune": {
