@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-03T17:36:57.000Z", 
+      "timestamp": "2016-04-03T17:41:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 83.9, 
-    "clock": "2016-04-03T10:36:05-07:00"
+    "clock": "2016-04-03T10:40:34-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 126, 
+      "bg": 128, 
       "temp": "absolute", 
-      "snoozeBG": 90, 
-      "timestamp": "2016-04-03T17:38:00.000Z", 
-      "reason": "Meal assist: 12g, 2.4U, setting -0.553U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 47, 
-      "mealAssist": "On: 17%, 17%, Carbs: 12 Boluses: 2.4 Target: 112 Deviation: 32 BGI: -8.56", 
+      "snoozeBG": 89, 
+      "timestamp": "2016-04-03T17:42:30.000Z", 
+      "reason": "Meal assist: 12g, 2.4U, setting -0.603U/hr, but 25m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 60, 
+      "mealAssist": "On: 17%, 17%, Carbs: 12 Boluses: 2.4 Target: 112 Deviation: 33 BGI: -8.96", 
       "tick": "+2"
     }, 
     "iob": {
       "netbasalinsulin": 0.15, 
-      "timestamp": "2016-04-03T17:37:59.000Z", 
-      "activity": 0.0214, 
-      "basaliob": -0.004, 
+      "timestamp": "2016-04-03T17:42:29.000Z", 
+      "activity": 0.0224, 
+      "basaliob": -0.064, 
       "hightempinsulin": 0.5, 
-      "bolussnooze": 0.549, 
-      "iob": 1.676
+      "bolussnooze": 0.418, 
+      "iob": 1.526
     }, 
     "enacted": {
       "requested": {
@@ -63,12 +63,12 @@
       [
         "916.580", 
         5, 
-        -79
+        -80
       ], 
       [
         "916.600", 
         5, 
-        -78
+        -79
       ], 
       [
         "916.620", 
@@ -83,21 +83,21 @@
       [
         "916.660", 
         5, 
-        -78
+        -79
       ], 
       [
         "916.680", 
         5, 
-        -79
+        -80
       ], 
       [
         "916.700", 
         5, 
-        -84
+        -85
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-04-03T17:36:47.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-04-03T17:41:08.000Z", 
     "usedDefault": false
   }
 }
