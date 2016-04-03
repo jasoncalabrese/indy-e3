@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-03T01:16:04.000Z", 
+      "timestamp": "2016-04-03T01:18:33.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 102.125, 
-    "clock": "2016-04-02T18:15:11-07:00"
+    "clock": "2016-04-02T18:17:40-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 221, 
+      "bg": 222, 
       "temp": "absolute", 
-      "snoozeBG": 221, 
-      "timestamp": "2016-04-03T01:17:16.000Z", 
-      "reason": "Eventual BG -13<110, bolus snooze: eventual BG range -13-221, temp 0.5 ~ req 0.5U/hr", 
-      "eventualBG": -13, 
-      "mealAssist": "Off: Carbs: 19 Boluses: 0.75 Target: 115 Deviation: 18 BGI: -6.2", 
+      "snoozeBG": 225, 
+      "timestamp": "2016-04-03T01:19:50.000Z", 
+      "reason": "Meal assist: 19g, 0.75U, bolus snooze: eventual BG range 11-225, temp 0.5 ~ req 0.5U/hr", 
+      "eventualBG": 11, 
+      "mealAssist": "On: 6%, 6%, Carbs: 19 Boluses: 0.75 Target: 114 Deviation: 22 BGI: -6.64", 
       "tick": "+1"
     }, 
     "iob": {
-      "netbasalinsulin": 0.8, 
-      "timestamp": "2016-04-03T01:17:16.000Z", 
-      "activity": 0.0155, 
-      "basaliob": 0.655, 
-      "hightempinsulin": 1.35, 
-      "bolussnooze": 1.952, 
-      "iob": 3.148
+      "netbasalinsulin": 0.75, 
+      "timestamp": "2016-04-03T01:19:50.000Z", 
+      "activity": 0.0166, 
+      "basaliob": 0.644, 
+      "hightempinsulin": 1.3, 
+      "bolussnooze": 1.91, 
+      "iob": 3.106
     }, 
     "enacted": {
       "requested": {
@@ -57,13 +57,13 @@
     "scanDetails": [
       [
         "916.560", 
-        3, 
-        -70
+        5, 
+        -51
       ], 
       [
         "916.580", 
         5, 
-        -44
+        -45
       ], 
       [
         "916.600", 
@@ -92,12 +92,12 @@
       ], 
       [
         "916.700", 
-        4, 
-        -59
+        5, 
+        -48
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-04-03T01:15:54.000Z", 
+    "timestamp": "2016-04-03T01:18:23.000Z", 
     "usedDefault": false
   }
 }
